@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "TestAccount Prospect",
+    "Phone": "123-456-7890",
+    "BillingStreet": "123 Market Street",
+    "BillingCity": "Stamford",
+    "BillingState": "Connecticut",
+    "BillingPostalCode": "94105",
+    "BillingCountry": "United States",
+    "Industry": "Technology",
+    "AnnualRevenue": 5000000,
+    "NumberOfEmployees": 250,
+    "Description": "Test account created via Playwright API",
+    "Type": "Prospect"
+  },
+  {
+    "Name": "TestAccount Customer",
+    "Phone": "987-654-3210",
+    "BillingStreet": "456 Elm Street",
+    "BillingCity": "Los Angeles",
+    "BillingState": "California",
+    "BillingPostalCode": "90001",
+    "BillingCountry": "United States",
+    "Industry": "Finance",
+    "AnnualRevenue": 3000000,
+    "NumberOfEmployees": 100,
+    "Description": "Test account created via Playwright API",
+    "Type": "Customer - Direct"
+  },
+  {
+    "Name": "Test Account Partner",
+    "Phone": "555-123-4567",
+    "BillingStreet": "789 Pine Street",
+    "BillingCity": "Seattle",
+    "BillingState": "Washington",
+    "BillingPostalCode": "98101",
+    "BillingCountry": "United States",
+    "Industry": "Technology",
+    "AnnualRevenue": 2000000,
+    "NumberOfEmployees": 50,
+    "Description": "Test account created via Playwright API",
+    "Type": "Technology Partner"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "singleAccount": {
+    "name": "TestAccount_Customer",
+    "type": "Customer - Direct"
+  },
+  "multipleAccounts": [
+    { "name": "TestAccount_Prospect", "type": "Prospect" },
+    { "name": "TestAccount_Customer", "type": "Customer - Direct" },
+    { "name": "TestAccount_Partner", "type": "Technology Partner" }
+  ]
+}

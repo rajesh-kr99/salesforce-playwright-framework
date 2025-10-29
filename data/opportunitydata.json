@@ -1,0 +1,42 @@
+{
+  "Opportunity": {
+    "name": "Automation Opportunity",
+    "closeDate": "12/31/2025",
+    "stage": "Prospecting"
+  },
+  "E2EOpportunity": {
+    "name": "E2E_Opportunity",
+    "closeDate": "12/31/2025",
+    "stage": "Prospecting"
+  },
+  "QualificationOpportunity": {
+    "name": "Opportunity_Qualification",
+    "closeDate": "12/15/2025",
+    "stage": "Prospecting",
+    "targetStage": "Qualification",
+    "expectedProbability": "10%"
+  },
+  "ProposalOpportunity": {
+    "name": "Opportunity_Proposal",
+    "closeDate": "12/20/2025",
+    "stage": "Needs Analysis",
+    "targetStage": "Proposal/Price Quote",
+    "expectedProbability": "75%"
+  },
+  "ClosedWonOpportunity": {
+    "name": "Opportunity_ClosedWon",
+    "closeDate": "12/31/2025",
+    "stage": "Value Proposition",
+    "targetStage": "Closed Won",
+    "expectedProbability": "100%"
+  },
+  "OpportunityStages": [
+    { "stage": "Qualification", "probability": "10%" },
+    { "stage": "Needs Analysis", "probability": "20%" },
+    { "stage": "Value Proposition", "probability": "50%" },
+    { "stage": "Id. Decision Makers", "probability": "60%" },
+    { "stage": "Proposal/Price Quote", "probability": "75%" },
+    { "stage": "Closed Won", "probability": "100%" }
+    
+  ]
+}

@@ -1,0 +1,881 @@
+{
+  "totalSize": 35,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YLwVCQA1"
+      },
+      "Id": "01kgK00009YLwVCQA1",
+      "Field": "Account.OperatingHoursId",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YLzLSQA1"
+      },
+      "Id": "01kgK00009YLzLSQA1",
+      "Field": "Account.DandbCompanyId",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM06qQAD"
+      },
+      "Id": "01kgK00009YM06qQAD",
+      "Field": "Account.AccountNumber",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM08FQAT"
+      },
+      "Id": "01kgK00009YM08FQAT",
+      "Field": "Account.Fax",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM08OQAT"
+      },
+      "Id": "01kgK00009YM08OQAT",
+      "Field": "Account.SLAExpirationDate__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM08UQAT"
+      },
+      "Id": "01kgK00009YM08UQAT",
+      "Field": "Account.UpsellOpportunity__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM09GQAT"
+      },
+      "Id": "01kgK00009YM09GQAT",
+      "Field": "Account.ParentId",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM09uQAD"
+      },
+      "Id": "01kgK00009YM09uQAD",
+      "Field": "Account.Industry",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0A2QAL"
+      },
+      "Id": "01kgK00009YM0A2QAL",
+      "Field": "Account.SLA__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0A3QAL"
+      },
+      "Id": "01kgK00009YM0A3QAL",
+      "Field": "Account.NumberofLocations__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0aHQAT"
+      },
+      "Id": "01kgK00009YM0aHQAT",
+      "Field": "Account.Jigsaw",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0AKQA1"
+      },
+      "Id": "01kgK00009YM0AKQA1",
+      "Field": "Account.Rating",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0AnQAL"
+      },
+      "Id": "01kgK00009YM0AnQAL",
+      "Field": "Account.Sic",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0bQQAT"
+      },
+      "Id": "01kgK00009YM0bQQAT",
+      "Field": "Account.AccountSource",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0btQAD"
+      },
+      "Id": "01kgK00009YM0btQAD",
+      "Field": "Account.NaicsCode",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0bZQAT"
+      },
+      "Id": "01kgK00009YM0bZQAT",
+      "Field": "Account.DunsNumber",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0c5QAD"
+      },
+      "Id": "01kgK00009YM0c5QAD",
+      "Field": "Account.NaicsDesc",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0cJQAT"
+      },
+      "Id": "01kgK00009YM0cJQAT",
+      "Field": "Account.YearStarted",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0crQAD"
+      },
+      "Id": "01kgK00009YM0crQAD",
+      "Field": "Account.Tradestyle",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0csQAD"
+      },
+      "Id": "01kgK00009YM0csQAD",
+      "Field": "Account.CleanStatus",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": false,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0cTQAT"
+      },
+      "Id": "01kgK00009YM0cTQAT",
+      "Field": "Account.SicDesc",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0DPQA1"
+      },
+      "Id": "01kgK00009YM0DPQA1",
+      "Field": "Account.Site",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0ElQAL"
+      },
+      "Id": "01kgK00009YM0ElQAL",
+      "Field": "Account.SLASerialNumber__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0GIQA1"
+      },
+      "Id": "01kgK00009YM0GIQA1",
+      "Field": "Account.Type",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0GNQA1"
+      },
+      "Id": "01kgK00009YM0GNQA1",
+      "Field": "Account.CustomerPriority__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0H5QAL"
+      },
+      "Id": "01kgK00009YM0H5QAL",
+      "Field": "Account.ShippingAddress",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0INQA1"
+      },
+      "Id": "01kgK00009YM0INQA1",
+      "Field": "Account.BillingAddress",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0JCQA1"
+      },
+      "Id": "01kgK00009YM0JCQA1",
+      "Field": "Account.AnnualRevenue",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0JKQA1"
+      },
+      "Id": "01kgK00009YM0JKQA1",
+      "Field": "Account.Website",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0JLQA1"
+      },
+      "Id": "01kgK00009YM0JLQA1",
+      "Field": "Account.Ownership",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0JQQA1"
+      },
+      "Id": "01kgK00009YM0JQQA1",
+      "Field": "Account.NumberOfEmployees",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0JrQAL"
+      },
+      "Id": "01kgK00009YM0JrQAL",
+      "Field": "Account.Description",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0KcQAL"
+      },
+      "Id": "01kgK00009YM0KcQAL",
+      "Field": "Account.TickerSymbol",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0KgQAL"
+      },
+      "Id": "01kgK00009YM0KgQAL",
+      "Field": "Account.Active__c",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    },
+    {
+      "attributes": {
+        "type": "FieldPermissions",
+        "url": "/services/data/v64.0/sobjects/FieldPermissions/01kgK00009YM0KLQA1"
+      },
+      "Id": "01kgK00009YM0KLQA1",
+      "Field": "Account.Phone",
+      "SobjectType": "Account",
+      "PermissionsRead": true,
+      "PermissionsEdit": true,
+      "ParentId": "0PSgK000007r7yhWAA",
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v64.0/sobjects/PermissionSet/0PSgK000007r7yhWAA"
+        },
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v64.0/sobjects/Profile/00egK000005gjQrQAI"
+          },
+          "Name": "System Administrator"
+        }
+      }
+    }
+  ]
+}

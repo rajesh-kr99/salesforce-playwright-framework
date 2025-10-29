@@ -1,0 +1,34 @@
+{
+  "Lead": {
+    "firstName": "Automation",
+    "lastName": "Lead",
+    "company": "TestCorp Inc.",
+    "status": "Open - Not Contacted",
+    "leadSource": "Web"
+  },
+  "ConvertLead": {
+    "firstName": "Convert",
+    "lastName": "Lead",
+    "company": "ConvertCorp",
+    "status": "Working - Contacted",
+    "leadSource": "Partner Referral"
+  },
+  "LeadValidation": {
+    "firstName": "Validation",
+    "lastName": "Lead",
+    "company": "ValidCorp",
+    "status": "Qualified",
+    "leadSource": "Employee Referral"
+  },
+  "E2ELead": {
+    "firstName": "E2E",
+    "lastName": "Lead",
+    "company": "FullCycle Corp",
+    "status": "Open - Not Contacted",
+    "leadSource": "Web",
+    "targetStatuses": [
+      "Working - Contacted",
+      "Closed - Converted"
+    ]
+  }
+}
