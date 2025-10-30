@@ -39,7 +39,7 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     baseURL: process.env.SALESFORCE_URL,
     //storageState: 'auth.json', // reuse login session
-    headless: false,              // Keep browser open in headed mode
+    headless: process.env.CI ? true : false,  // headless on CI, headed locally
     viewport: { width: 1280, height: 720 },
   },
 
