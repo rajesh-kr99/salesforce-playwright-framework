@@ -2,7 +2,7 @@ import { test, expect } from '../../fixtures';
 import { AccountPage } from '../../pages/AccountPage';
 import { OpportunityPage } from '../../pages/OpportunityPage';
 import accountData from '../../data/accountData.json';
-import opportunityData from '../../data/opportunitydata.json';
+import opportunityData from '../../data/opportunityData.json';
 
 test('Create Salesforce Opportunity under a new account', async ({ loginPage, page }) => {
   const accountPage = new AccountPage(page);

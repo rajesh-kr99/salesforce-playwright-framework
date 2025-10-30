@@ -2,7 +2,7 @@ import { test, expect } from '../../fixtures';
 import { AccountPage } from '../../pages/AccountPage';
 import { OpportunityPage } from '../../pages/OpportunityPage';
 import accountData from '../../data/accountData.json';
-import opportunityData from '../../data/opportunitydata.json';
+import opportunityData from '../../data/opportunityData.json';
 
 test.describe('Salesforce Opportunity Stage Movement', () => {
   let opportunityPage: OpportunityPage;
