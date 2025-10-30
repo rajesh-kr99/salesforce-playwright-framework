@@ -33,11 +33,25 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test --reporter=html
         env:
-          SF_USERNAME: ${{ secrets.SF_USERNAME }}
-          SF_PASSWORD: ${{ secrets.SF_PASSWORD }}
-          SF_LOGIN_URL: ${{ secrets.SF_LOGIN_URL }}
-          SF_CLIENT_ID: ${{ secrets.SF_CLIENT_ID }}
-          SF_CLIENT_SECRET: ${{ secrets.SF_CLIENT_SECRET }}
+          SALESFORCE_USERNAME: ${{ secrets.SF_USERNAME }}
+          SALESFORCE_PASSWORD: ${{ secrets.SF_PASSWORD }}
+          SALESFORCE_TOKEN_PASSWORD: ${{ secrets.SF_TOKEN_PASSWORD }}
+          SALESFORCE_LOGIN_URL: ${{ secrets.SF_LOGIN_URL }}
+          SALESFORCE_URL: ${{ secrets.SF_URL }}
+          SALESFORCE_API_URL: ${{ secrets.SF_API_URL }}
+          SALESFORCE_CLIENT_ID: ${{ secrets.SF_CLIENT_ID }}
+          SALESFORCE_CLIENT_SECRET: ${{ secrets.SF_CLIENT_SECRET }}
+          SALESFORCE_SECURITY_TOKEN: ${{ secrets.SF_SECURITY_TOKEN }}
+          SALESFORCE_ACCESS_TOKEN: ${{ secrets.SF_ACCESS_TOKEN }}
+          SALESFORCE_ACCOUNTS_URL: ${{ secrets.SF_ACCOUNTS_URL }}
+          SALESFORCE_ACCOUNTS_R_URL: ${{ secrets.SF_ACCOUNTS_R_URL }}
+          SALESFORCE_CONTACTS_URL: ${{ secrets.SF_CONTACTS_URL }}
+          SALESFORCE_OPPORTUNITIES_URL: ${{ secrets.SF_OPPORTUNITIES_URL }}
+          SALESFORCE_OPPORTUNITIES_R_URL: ${{ secrets.SF_OPPORTUNITIES_R_URL }}
+          SALESFORCE_LEADS_URL: ${{ secrets.SF_LEADS_URL }}
+          SALESFORCE_LEADS_R_URL: ${{ secrets.SF_LEADS_R_URL }}
+         
+          # Add all other URLs or environment variables needed
 
       # 6️⃣ Upload HTML report as artifact
       - name: Upload HTML report
