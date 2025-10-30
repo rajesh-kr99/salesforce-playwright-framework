@@ -18,7 +18,7 @@ test('Create Salesforce Account', async ({ loginPage, page }) => {
   
 });
 
-
+//Create more than one account
 test('Create multiple Salesforce accounts', async ({ loginPage, page }) => {
   const accountPage = new AccountPage(page);
 
