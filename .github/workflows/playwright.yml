@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:
+    # Run every day at 8:00 AM UTC (adjust timezone as needed)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
   test:
@@ -31,7 +35,7 @@ jobs:
 
       # 5️⃣ Run Playwright tests
       - name: Run Playwright tests
-        run: npx playwright test --reporter=html
+        run: npx playwright test
         env:
           SALESFORCE_USERNAME: ${{ secrets.SF_USERNAME }}
           SALESFORCE_PASSWORD: ${{ secrets.SF_PASSWORD }}
@@ -53,9 +57,27 @@ jobs:
          
           # Add all other URLs or environment variables needed
 
-      # 6️⃣ Upload HTML report as artifact
-      - name: Upload HTML report
+      # 6️⃣ Generate Allure Report
+      - name: Generate Allure Report
+        if: always()
+        run: npx allure generate allure-results --clean -o allure-report
+
+      # 7️⃣ Upload Playwright HTML report as artifact
+      - name: Upload Playwright HTML report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
           path: playwright-report
+          retention-days: 7
+
+      # 8️⃣ Deploy Allure Report to GitHub Pages
+      - name: Deploy Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          keep_files: false  # This purges old reports
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

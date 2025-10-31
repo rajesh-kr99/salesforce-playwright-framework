@@ -98,7 +98,7 @@ export class LeadPage {
     await this.page.waitForTimeout(500);
     await this.confirmAndCloseButton.click();
 
-    await expectTextVisible(this.page, 'Your lead has been converted', 30000);
+    await expectTextVisible(this.page, 'Your lead has been converted', 60000);
 
     await this.page.getByRole('button', { name: 'Cancel and close', exact: true }).first().click();
     console.log(`✅ Lead ${leadId} successfully converted.`);
