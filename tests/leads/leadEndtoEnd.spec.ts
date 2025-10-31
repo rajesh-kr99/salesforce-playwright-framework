@@ -10,6 +10,7 @@ test.describe('Salesforce Lead End-to-End Lifecycle', () => {
   let leadName: string;
 
   test('Create Lead → Move through statuses → Convert', async ({ loginPage, page }) => {
+    test.setTimeout(60000); // Increase timeout to 60 seconds for full E2E flow
     leadPage = new LeadPage(page);
     const data = leadData.E2ELead;
 

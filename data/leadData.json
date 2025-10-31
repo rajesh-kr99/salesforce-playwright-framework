@@ -17,8 +17,8 @@
     "firstName": "Validation",
     "lastName": "Lead",
     "company": "ValidCorp",
-    "status": "Qualified",
-    "leadSource": "Employee Referral"
+    "status": "Open - Not Contacted",
+    "leadSource": "Web"
   },
   "E2ELead": {
     "firstName": "E2E",

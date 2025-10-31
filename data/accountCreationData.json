@@ -1,44 +1,29 @@
 [
   {
-    "Name": "TestAccount Prospect",
+    "Name": "API Test Prospect Company",
     "Phone": "123-456-7890",
-    "BillingStreet": "123 Market Street",
-    "BillingCity": "Stamford",
-    "BillingState": "Connecticut",
-    "BillingPostalCode": "94105",
-    "BillingCountry": "United States",
     "Industry": "Technology",
     "AnnualRevenue": 5000000,
     "NumberOfEmployees": 250,
-    "Description": "Test account created via Playwright API",
+    "Description": "Prospect account created via API automation",
     "Type": "Prospect"
   },
   {
-    "Name": "TestAccount Customer",
+    "Name": "API Test Customer Direct",
     "Phone": "987-654-3210",
-    "BillingStreet": "456 Elm Street",
-    "BillingCity": "Los Angeles",
-    "BillingState": "California",
-    "BillingPostalCode": "90001",
-    "BillingCountry": "United States",
     "Industry": "Finance",
     "AnnualRevenue": 3000000,
     "NumberOfEmployees": 100,
-    "Description": "Test account created via Playwright API",
+    "Description": "Customer Direct account created via API automation",
     "Type": "Customer - Direct"
   },
   {
-    "Name": "Test Account Partner",
+    "Name": "API Test Tech Partner",
     "Phone": "555-123-4567",
-    "BillingStreet": "789 Pine Street",
-    "BillingCity": "Seattle",
-    "BillingState": "Washington",
-    "BillingPostalCode": "98101",
-    "BillingCountry": "United States",
-    "Industry": "Technology",
+    "Industry": "Healthcare",
     "AnnualRevenue": 2000000,
     "NumberOfEmployees": 50,
-    "Description": "Test account created via Playwright API",
+    "Description": "Technology Partner account created via API automation",
     "Type": "Technology Partner"
   }
 ]

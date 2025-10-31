@@ -8,6 +8,7 @@ node_modules/
 /playwright/.auth/
 .env
 /allure-results/
+/allure-report/
 *.log
 
 # VSCode

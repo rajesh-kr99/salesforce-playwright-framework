@@ -1,8 +1,17 @@
-
-  {
-    "singleContact":{
+{
+  "singleContact": {
     "firstName": "John",
     "lastName": "Doe"
+  },
+  "secondaryContact": {
+    "firstName": "Jane",
+    "lastName": "Smith"
+  },
+  "contactWithPhone": {
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "phone": "(555) 123-4567",
+    "email": "mjohnson@example.com"
   }
 }
 

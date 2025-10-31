@@ -7,5 +7,7 @@ test('Validate Salesforce Lead Status', async ({ loginPage, page }) => {
   const data = leadData.LeadValidation;
 
   const { leadId } = await leadPage.createLead(data);
+  
+  // Validate the status was created correctly
   await leadPage.validateLead(leadId, data.status);
 });

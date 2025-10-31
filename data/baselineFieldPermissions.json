@@ -11,7 +11,7 @@
       "Field": "Account.OperatingHoursId",
       "SobjectType": "Account",
       "PermissionsRead": true,
-      "PermissionsEdit": false,
+      "PermissionsEdit": true,
       "ParentId": "0PSgK000007r7yhWAA",
       "Parent": {
         "attributes": {

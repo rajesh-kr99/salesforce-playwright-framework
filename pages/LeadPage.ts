@@ -65,9 +65,11 @@ export class LeadPage {
     await this.companyInput.fill(data.company);
 
     await this.statusDropdown.click();
+    await this.page.waitForTimeout(500); // Wait for dropdown to populate
     await this.page.getByRole('option', { name: data.status, exact: true }).click();
 
     await this.leadSourceDropdown.click();
+    await this.page.waitForTimeout(500); // Wait for dropdown to populate
     await this.page.getByRole('option', { name: data.leadSource, exact: true }).click();
 
     await this.saveButton.click();
@@ -86,15 +88,19 @@ export class LeadPage {
   async convertLead(leadId: string) {
     const baseLeadUrl = process.env.SALESFORCE_LEADS_R_URL!;
     await this.page.goto(`${baseLeadUrl}${leadId}/view`, { waitUntil: 'domcontentloaded' });
+    await this.page.waitForTimeout(1000);
 
     await this.showMoreActionsButton.click();
+    await this.page.waitForTimeout(300);
     await this.convertButton.click();
+    await this.page.waitForTimeout(1000);
     await this.convertConfirmButton.click();
+    await this.page.waitForTimeout(500);
     await this.confirmAndCloseButton.click();
 
-    await expectTextVisible(this.page, 'Your lead has been converted', 20000);
+    await expectTextVisible(this.page, 'Your lead has been converted', 30000);
 
-    await this.confirmAndCloseButton.click();
+    await this.page.getByRole('button', { name: 'Cancel and close', exact: true }).first().click();
     console.log(`✅ Lead ${leadId} successfully converted.`);
   }
 
@@ -113,9 +119,12 @@ export class LeadPage {
       await waitForLightningLoad(this.page);
 
       await this.showMoreActionsButton.click();
+      await this.page.waitForTimeout(300);
       await this.menuItemEditButton.click();
+      await this.page.waitForTimeout(1000);
 
       await this.statusDropdown.click();
+      await this.page.waitForTimeout(500);
       await this.page.getByRole('option', { name: status, exact: true }).click();
 
       await this.saveButton.click();

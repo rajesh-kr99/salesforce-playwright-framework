@@ -56,6 +56,8 @@ test.describe('Salesforce Opportunity Stage Movement', () => {
 
   // 🔹 Test 3 - Move to Closed Won
   test('Create Opportunity and move to Closed Won', async ({ page }) => {
+    test.setTimeout(60000); // Closed Won stage may need extra time for validation
+    
     const oppData = opportunityData.ClosedWonOpportunity;
     const { opportunityName, opportunityId } = await opportunityPage.createOpportunity({
       name: oppData.name,

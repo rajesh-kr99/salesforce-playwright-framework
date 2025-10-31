@@ -10,11 +10,10 @@ test('Delete Salesforce Account', async ({ loginPage, page }) => {
   const { name, type } = accountData.singleAccount;
 
   // Step 2: Create Account
-  
   const { accountName, accountId } = await accountPage.createAccount(name, type);
-
-    
-  // Step 3: Edit Account
+  
+  // Step 3: Delete Account (includes toast verification)
   await accountPage.deleteAccount(accountId);
 
+  console.log(`✅ Test completed: Account ${accountId} successfully deleted with toast confirmation`);
 });

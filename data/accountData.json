@@ -1,11 +1,34 @@
 {
   "singleAccount": {
-    "name": "TestAccount_Customer",
+    "name": "Acme Solutions Inc",
     "type": "Customer - Direct"
   },
-  "multipleAccounts": [
-    { "name": "TestAccount_Prospect", "type": "Prospect" },
-    { "name": "TestAccount_Customer", "type": "Customer - Direct" },
-    { "name": "TestAccount_Partner", "type": "Technology Partner" }
-  ]
+  "edgeCases": [
+    { "name": "Summit & Associates LLC", "type": "Customer - Direct", "description": "Special character: ampersand" },
+    { "name": "O'Reilly Tech Group", "type": "Prospect", "description": "Special character: apostrophe" },
+    { "name": "Apex-Dynamics International", "type": "Technology Partner", "description": "Special character: hyphen" },
+    { "name": "VeryLongCompanyNameForTestingMaximumCharacterLimitsInSalesforceSystemValidation", "type": "Customer - Channel", "description": "Maximum length test" }
+  ],
+  "allAccountTypes": [
+    { "name": "ProspectCorp Industries", "type": "Prospect" },
+    { "name": "DirectBuy Solutions", "type": "Customer - Direct" },
+    { "name": "ChannelPro Distributors", "type": "Customer - Channel" },
+    { "name": "InstallTech Services", "type": "Installation Partner" },
+    { "name": "TechBridge Partners", "type": "Technology Partner" },
+    { "name": "GenericCorp Ltd", "type": "Other" }
+  ],
+  "editScenarios": {
+    "typeChange": {
+      "original": { "name": "TypeChange Corp", "type": "Prospect" },
+      "updated": { "type": "Customer - Direct" }
+    },
+    "multipleFields": {
+      "original": { "name": "MultiEdit Systems", "type": "Prospect" },
+      "updated": { "phone": "(555) 123-4567", "website": "www.multiedit.com" }
+    },
+    "edgeCaseName": {
+      "original": { "name": "Standard Company", "type": "Prospect" },
+      "updated": { "name": "Updated & Modified LLC" }
+    }
+  }
 }

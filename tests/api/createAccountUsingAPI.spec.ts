@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
+import { getSalesforceOAuthResponse } from '../../utils/salesforceOAuthHelper';
 
 test('Create Salesforce Account via API', async ({ request }) => {
-  // Salesforce instance and access token
-  const instanceUrl = 'https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com';
-  const accessToken = process.env.SALESFORCE_ACCESS_TOKEN!; // or hardcode temporarily for testing
+  // Get fresh access token dynamically
+  const oauthResponse = await getSalesforceOAuthResponse(request);
+  const instanceUrl = oauthResponse.instance_url;
+  const accessToken = oauthResponse.access_token;
 
   // Hardcoded account payload
   const payload = {

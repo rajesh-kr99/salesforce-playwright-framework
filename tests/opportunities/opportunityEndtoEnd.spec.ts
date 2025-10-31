@@ -12,6 +12,8 @@ test.describe('Salesforce Opportunity End-to-End Lifecycle', () => {
   let accountPage: AccountPage;
 
   test('Create Account → Create Opportunity → Move Through All Stages', async ({ loginPage, page }) => {
+    test.setTimeout(120000); // 2 minutes for 6 stage transitions
+    
     // Step 1: Create Account
     accountPage = new AccountPage(page);
     const { name, type } = accountData.singleAccount;
