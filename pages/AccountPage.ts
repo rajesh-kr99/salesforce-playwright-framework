@@ -36,7 +36,7 @@ export class AccountPage {
 
   async navigateToAccounts() {
     const accountsUrl = process.env.SALESFORCE_ACCOUNTS_URL!;
-    await this.page.goto(accountsUrl, { waitUntil: 'load', timeout: 30000 });
+    await this.page.goto(accountsUrl, { waitUntil: 'load', timeout: 60000 });
     
     // Wait for Lightning components to render
     await this.page.waitForTimeout(2000);
