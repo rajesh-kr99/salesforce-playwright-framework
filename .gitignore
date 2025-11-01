@@ -11,6 +11,9 @@ node_modules/
 /allure-report/
 *.log
 
+# Authentication (never commit session tokens!)
+auth.json
+
 # JWT Certificates (never commit private keys!)
 server.key
 server.crt
