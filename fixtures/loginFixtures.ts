@@ -1,6 +1,7 @@
 // fixtures/loginFixtures.ts
 import { test as base } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
+import { authenticateWithJWT, getJWTConfig } from '../utils/jwtAuth';
 import dotenv from 'dotenv';
 import fs from 'fs';
 
@@ -57,52 +58,98 @@ async function isLoginPageDisplayed(page: any): Promise<boolean> {
  */
 async function performFreshLogin(page: any, context: any, loginPage: LoginPage) {
   console.log('🔐 Performing fresh login...');
-  console.log('⚠️  Session expired or invalid - Manual authentication required');
-  console.log('ℹ️  The test will pause after entering credentials for OTP/2FA');
   
-  await loginPage.login(
-    process.env.SALESFORCE_URL!,
-    process.env.SALESFORCE_USERNAME!,
-    process.env.SALESFORCE_PASSWORD!
-  );
-
-  // Wait for page to process after clicking login
-  await page.waitForTimeout(3000);
-
-  // Check current state - are we logged in or need OTP?
-  const currentUrl = page.url();
-  const isLoggedIn = currentUrl.includes('lightning') || 
-                     currentUrl.includes('home') || 
-                     currentUrl.includes('setup');
+  // Check if JWT authentication is enabled
+  const useJWT = process.env.JWT_LOGIN_METHOD === 'jwt';
   
-  if (!isLoggedIn) {
-    // Not logged in yet - likely on OTP/verification page
-    console.log('🔐 Waiting for OTP/2FA verification...');
-    console.log('📱 Please enter the OTP code sent to your device');
-    console.log('⏸️  Test will pause now - Complete login and press Resume in Playwright Inspector');
+  if (useJWT) {
+    console.log('🔑 Using JWT authentication (no OTP required)...');
     
-    // Always pause for manual OTP entry
-    await page.pause();
-    
-    // After resume, wait for successful login
-    await page.waitForTimeout(2000);
-    
-    // Verify we're now logged in
-    const finalUrl = page.url();
-    if (!finalUrl.includes('lightning') && !finalUrl.includes('home')) {
-      throw new Error('❌ Login failed - Not on Salesforce home page after resume');
+    try {
+      // Get JWT configuration
+      const jwtConfig = getJWTConfig();
+      
+      // Authenticate using JWT
+      const authResult = await authenticateWithJWT(jwtConfig);
+      
+      console.log('✅ JWT authentication successful');
+      console.log(`🔗 Instance URL: ${authResult.instance_url}`);
+      
+      // Navigate to Salesforce with JWT access token
+      // Set the access token as a cookie or use it in the context
+      await page.goto(`${authResult.instance_url}/secur/frontdoor.jsp?sid=${authResult.access_token}`, {
+        waitUntil: 'domcontentloaded',
+      });
+      
+      // Wait for redirect to home page
+      await page.waitForTimeout(3000);
+      
+      // Verify we're logged in
+      const currentUrl = page.url();
+      if (!currentUrl.includes('lightning') && !currentUrl.includes('home') && !currentUrl.includes('setup')) {
+        throw new Error('❌ JWT login failed - not redirected to Salesforce home');
+      }
+      
+      console.log('✅ Successfully logged in via JWT');
+      
+      // Save the session
+      await context.storageState({ path: STORAGE_STATE_PATH });
+      console.log('✅ JWT session saved to auth.json');
+      
+    } catch (error) {
+      console.error('❌ JWT authentication failed:', error);
+      throw new Error(`JWT authentication failed: ${error}`);
     }
+    
+  } else {
+    // Use traditional username/password login
+    console.log('⚠️  Session expired or invalid - Manual authentication required');
+    console.log('ℹ️  The test will pause after entering credentials for OTP/2FA');
+    
+    await loginPage.login(
+      process.env.SALESFORCE_URL!,
+      process.env.SALESFORCE_USERNAME!,
+      process.env.SALESFORCE_PASSWORD!
+    );
+
+    // Wait for page to process after clicking login
+    await page.waitForTimeout(3000);
+
+    // Check current state - are we logged in or need OTP?
+    const currentUrl = page.url();
+    const isLoggedIn = currentUrl.includes('lightning') || 
+                       currentUrl.includes('home') || 
+                       currentUrl.includes('setup');
+    
+    if (!isLoggedIn) {
+      // Not logged in yet - likely on OTP/verification page
+      console.log('🔐 Waiting for OTP/2FA verification...');
+      console.log('📱 Please enter the OTP code sent to your device');
+      console.log('⏸️  Test will pause now - Complete login and press Resume in Playwright Inspector');
+      
+      // Always pause for manual OTP entry
+      await page.pause();
+      
+      // After resume, wait for successful login
+      await page.waitForTimeout(2000);
+      
+      // Verify we're now logged in
+      const finalUrl = page.url();
+      if (!finalUrl.includes('lightning') && !finalUrl.includes('home')) {
+        throw new Error('❌ Login failed - Not on Salesforce home page after resume');
+      }
+    }
+
+    console.log('✅ Login completed successfully');
+    
+    // Wait a bit more to ensure page is fully loaded
+    await page.waitForTimeout(2000);
+
+    // Save the new session
+    await context.storageState({ path: STORAGE_STATE_PATH });
+    console.log('✅ New session saved to auth.json');
+    console.log('ℹ️  Future test runs will use this session until it expires');
   }
-
-  console.log('✅ Login completed successfully');
-  
-  // Wait a bit more to ensure page is fully loaded
-  await page.waitForTimeout(2000);
-
-  // Save the new session
-  await context.storageState({ path: STORAGE_STATE_PATH });
-  console.log('✅ New session saved to auth.json');
-  console.log('ℹ️  Future test runs will use this session until it expires');
 }
 
 export const test = base.extend<MyFixtures>({
