@@ -85,19 +85,7 @@ export function getJWTConfig(): JWTAuthConfig {
   // Convert escaped newlines to actual newlines (for keys stored in GitHub Secrets)
   // GitHub Secrets store multi-line strings with literal \n characters
   if (privateKey) {
-    // Replace literal \n with actual newlines
     privateKey = privateKey.replace(/\\n/g, '\n');
-    
-    // Also handle if the key doesn't have proper BEGIN/END markers
-    if (!privateKey.includes('-----BEGIN')) {
-      console.error('❌ Private key format error: Missing BEGIN marker');
-      console.error('Key preview (first 50 chars):', privateKey.substring(0, 50));
-    }
-    
-    // Debug: Show key format (first and last 50 chars)
-    console.log('🔑 Private key loaded, length:', privateKey.length);
-    console.log('🔑 Key starts with:', privateKey.substring(0, 50));
-    console.log('🔑 Key ends with:', privateKey.substring(privateKey.length - 50));
   }
 
   if (!clientId || !username || !privateKey) {
