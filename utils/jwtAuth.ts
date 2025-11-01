@@ -81,6 +81,11 @@ export function getJWTConfig(): JWTAuthConfig {
       privateKey = fs.readFileSync(keyPath, 'utf8');
     }
   }
+  
+  // Convert escaped newlines to actual newlines (for keys stored in GitHub Secrets)
+  if (privateKey) {
+    privateKey = privateKey.replace(/\\n/g, '\n');
+  }
 
   if (!clientId || !username || !privateKey) {
     throw new Error(
