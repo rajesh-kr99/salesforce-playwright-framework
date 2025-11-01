@@ -54,8 +54,10 @@ jobs:
           SALESFORCE_OPPORTUNITIES_R_URL: ${{ secrets.SF_OPPORTUNITIES_R_URL }}
           SALESFORCE_LEADS_URL: ${{ secrets.SF_LEADS_URL }}
           SALESFORCE_LEADS_R_URL: ${{ secrets.SF_LEADS_R_URL }}
-         
-          # Add all other URLs or environment variables needed
+          # JWT Authentication (bypasses MFA)
+          SALESFORCE_JWT_CLIENT_ID: ${{ secrets.SALESFORCE_JWT_CLIENT_ID }}
+          SALESFORCE_PRIVATE_KEY: ${{ secrets.SALESFORCE_PRIVATE_KEY }}
+          JWT_LOGIN_METHOD: jwt
 
       # 6️⃣ Generate Allure Report
       - name: Generate Allure Report

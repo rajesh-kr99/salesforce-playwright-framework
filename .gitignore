@@ -11,6 +11,12 @@ node_modules/
 /allure-report/
 *.log
 
+# JWT Certificates (never commit private keys!)
+server.key
+server.crt
+*.pem
+private-key-for-github.txt
+
 # VSCode
 .vscode/
 .idea/
