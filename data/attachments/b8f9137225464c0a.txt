@@ -1,0 +1,24 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 235ms
+⏳ [expectTextVisible] "was created" not visible yet (attempt 1)
+✅ [expectTextVisible] "was created" found (attempt 2)
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Lead/00QgK000007CuOzUAK/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 00QgK000007CuOzUAK
+✅ Created Lead: E2E Lead_1762073093198 (00QgK000007CuOzUAK)
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 334ms
+⏳ [expectTextVisible] "Working - Contacted" not visible yet (attempt 1)
+✅ [expectTextVisible] "Working - Contacted" found (attempt 2)
+✅ Moved Lead 00QgK000007CuOzUAK to Working - Contacted
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 357ms
+⏳ [expectTextVisible] "Closed - Converted" not visible yet (attempt 1)
+✅ [expectTextVisible] "Closed - Converted" found (attempt 2)
+✅ Moved Lead 00QgK000007CuOzUAK to Closed - Converted
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 1)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 2)
+✅ [expectTextVisible] "Your lead has been converted" found (attempt 3)
+✅ Lead 00QgK000007CuOzUAK successfully converted.
+🎯 E2E Lead Lifecycle completed for: E2E Lead_1762073093198
