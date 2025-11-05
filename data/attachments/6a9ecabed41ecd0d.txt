@@ -1,0 +1,34 @@
+✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+POST URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com/services/data/v64.0/sobjects/Account
+Payload: {
+  "Name": "API Test Prospect Company_2025-11-05T090608806Z",
+  "Phone": "123-456-7890",
+  "Industry": "Technology",
+  "AnnualRevenue": 5000000,
+  "NumberOfEmployees": 250,
+  "Description": "Prospect account created via API automation",
+  "Type": "Prospect"
+}
+✅ Created Account: 001gK00000QoqvHQAR (Prospect)
+POST URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com/services/data/v64.0/sobjects/Account
+Payload: {
+  "Name": "API Test Customer Direct_2025-11-05T090609059Z",
+  "Phone": "987-654-3210",
+  "Industry": "Finance",
+  "AnnualRevenue": 3000000,
+  "NumberOfEmployees": 100,
+  "Description": "Customer Direct account created via API automation",
+  "Type": "Customer - Direct"
+}
+✅ Created Account: 001gK00000QohIwQAJ (Customer - Direct)
+POST URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com/services/data/v64.0/sobjects/Account
+Payload: {
+  "Name": "API Test Tech Partner_2025-11-05T090609267Z",
+  "Phone": "555-123-4567",
+  "Industry": "Healthcare",
+  "AnnualRevenue": 2000000,
+  "NumberOfEmployees": 50,
+  "Description": "Technology Partner account created via API automation",
+  "Type": "Technology Partner"
+}
+✅ Created Account: 001gK00000Qopd4QAB (Technology Partner)
