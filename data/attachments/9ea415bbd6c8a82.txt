@@ -1,0 +1,10 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 311ms
+⏳ [expectTextVisible] "was created" not visible yet (attempt 1)
+✅ [expectTextVisible] "was created" found (attempt 2)
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/00QgK000007TEtBUAW/view
+✅ [extractSalesforceId] Found ID in URL using fallback pattern (attempt 1): 00QgK000007TEtBUAW
+✅ Created Lead: Validation Lead_1762765169353 (00QgK000007TEtBUAW)
+✅ Lead 00QgK000007TEtBUAW validated with status: Open - Not Contacted
