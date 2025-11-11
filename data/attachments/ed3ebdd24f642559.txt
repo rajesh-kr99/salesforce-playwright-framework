@@ -1,2 +1,0 @@
-✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
-✅ Created Account: 001gK00000RNe8TQAT - API Test Account_1762765046350
