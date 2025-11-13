@@ -1,2 +1,0 @@
-✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
-API Response: { id: '001gK00000SBsHtQAL', success: true, errors: [] }
