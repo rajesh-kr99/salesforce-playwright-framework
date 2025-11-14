@@ -1,0 +1,19 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000SklOnQAJ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000SklOnQAJ
+✅ Created Account: Acme Solutions Inc_1763110871472 (Customer - Direct) | ID: 001gK00000SklOnQAJ
+📋 Setup (beforeEach): Created Account Acme Solutions Inc_1763110871472 (001gK00000SklOnQAJ)
+
+🔢 ========== Test Iteration: 1 ==========
+🔎 Starting account lookup for: Acme Solutions Inc_1763110871472
+🔄 Account lookup attempt 1/3
+✅ Account selected using strategy 1
+✅ Account selected successfully on attempt 1
+📋 Account field value after selection: "Acme Solutions Inc_1763110871472"
+📧 Email added: Jane.Smith_9284@example.com
+✅ Save button clicked using strategy 1
+✅ Navigated to contact record page
+✅ [extractSalesforceId] Found ID in URL using fallback pattern (attempt 1): 003gK00000GqbBxQAJ
+✅ Created Contact: Jane Smith_9284 | ID: 003gK00000GqbBxQAJ
+✅ Secondary contact created: 003gK00000GqbBxQAJ
