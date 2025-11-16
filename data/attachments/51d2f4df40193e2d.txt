@@ -1,0 +1,14 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000T0Si0QAF/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000T0Si0QAF
+✅ Created Account: MultiEdit Systems_1763283171324 (Prospect) | ID: 001gK00000T0Si0QAF
+🔄 Editing Account: 001gK00000T0Si0QAF
+✏️ Updated phone to: (555) 123-4567
+✏️ Updated website to: www.multiedit.com
+✅ Account 001gK00000T0Si0QAF successfully updated
+🔍 Validating Account: 001gK00000T0Si0QAF
+✅ Account name validated: MultiEdit Systems_1763283171324
+✅ Phone validated: (555) 123-4567
+✅ Website validated: www.multiedit.com
+✅ Successfully updated multiple fields: phone and website
