@@ -1,6 +1,0 @@
-📂 Found existing auth.json, validating session...
-✅ Session is still valid, using existing authentication
-✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000THAblQAH/view
-✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000THAblQAH
-✅ Created Account: MultiEdit Systems_1763542564107 (Prospect) | ID: 001gK00000THAblQAH
-🔄 Editing Account: 001gK00000THAblQAH
