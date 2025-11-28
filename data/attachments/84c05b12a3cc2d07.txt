@@ -1,0 +1,8 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000ULDB3QAP/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000ULDB3QAP
+✅ Created Account: Acme Solutions Inc_1764318629823 (Customer - Direct) | ID: 001gK00000ULDB3QAP
+🔄 Deleting Account: 001gK00000ULDB3QAP
+✅ Account 001gK00000ULDB3QAP successfully deleted
+✅ Test completed: Account 001gK00000ULDB3QAP successfully deleted with toast confirmation

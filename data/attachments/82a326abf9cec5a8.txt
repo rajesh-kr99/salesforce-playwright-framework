@@ -1,0 +1,17 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+🧪 Testing edge case: Special character: ampersand
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000ULEUvQAP/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000ULEUvQAP
+✅ Created Account: Summit & Associates LLC_1764318538219 (Customer - Direct) | ID: 001gK00000ULEUvQAP
+🔍 Validating Account: 001gK00000ULEUvQAP
+✅ Account name validated: Summit & Associates LLC_1764318538219
+✅ Account type validated: Customer - Direct
+🧪 Testing edge case: Special character: apostrophe
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000ULEWXQA5/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000ULEWXQA5
+✅ Created Account: O'Reilly Tech Group_1764318548700 (Prospect) | ID: 001gK00000ULEWXQA5
+🔍 Validating Account: 001gK00000ULEWXQA5
+✅ Account name validated: O'Reilly Tech Group_1764318548700
+✅ Account type validated: Prospect
+🧪 Testing edge case: Special character: hyphen
