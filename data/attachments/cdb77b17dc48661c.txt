@@ -1,0 +1,30 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+🧪 Testing edge case: Special character: ampersand
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000UmoMEQAZ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000UmoMEQAZ
+✅ Created Account: Summit & Associates LLC_1764664290412 (Customer - Direct) | ID: 001gK00000UmoMEQAZ
+🔍 Validating Account: 001gK00000UmoMEQAZ
+✅ Account name validated: Summit & Associates LLC_1764664290412
+✅ Account type validated: Customer - Direct
+🧪 Testing edge case: Special character: apostrophe
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000UmsZVQAZ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000UmsZVQAZ
+✅ Created Account: O'Reilly Tech Group_1764664302982 (Prospect) | ID: 001gK00000UmsZVQAZ
+🔍 Validating Account: 001gK00000UmsZVQAZ
+✅ Account name validated: O'Reilly Tech Group_1764664302982
+✅ Account type validated: Prospect
+🧪 Testing edge case: Special character: hyphen
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000UmBCoQAN/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000UmBCoQAN
+✅ Created Account: Apex-Dynamics International_1764664314864 (Technology Partner) | ID: 001gK00000UmBCoQAN
+🔍 Validating Account: 001gK00000UmBCoQAN
+✅ Account name validated: Apex-Dynamics International_1764664314864
+✅ Account type validated: Technology Partner
+🧪 Testing edge case: Maximum length test
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000Umsb7QAB/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000Umsb7QAB
+✅ Created Account: VeryLongCompanyNameForTestingMaximumCharacterLimitsInSalesforceSystemValidation_1764664327430 (Customer - Channel) | ID: 001gK00000Umsb7QAB
+🔍 Validating Account: 001gK00000Umsb7QAB
+✅ Account name validated: VeryLongCompanyNameForTestingMaximumCharacterLimitsInSalesforceSystemValidation_1764664327430
+✅ Account type validated: Customer - Channel
