@@ -1,0 +1,38 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000YyRPxQAN/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000YyRPxQAN
+✅ Created Account: ProspectCorp Industries_1766737691028 (Prospect) | ID: 001gK00000YyRPxQAN
+🔍 Validating Account: 001gK00000YyRPxQAN
+✅ Account name validated: ProspectCorp Industries_1766737691028
+✅ Account type validated: Prospect
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000YvzXtQAJ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000YvzXtQAJ
+✅ Created Account: DirectBuy Solutions_1766737700830 (Customer - Direct) | ID: 001gK00000YvzXtQAJ
+🔍 Validating Account: 001gK00000YvzXtQAJ
+✅ Account name validated: DirectBuy Solutions_1766737700830
+✅ Account type validated: Customer - Direct
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000YyBLEQA3/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000YyBLEQA3
+✅ Created Account: ChannelPro Distributors_1766737710027 (Customer - Channel) | ID: 001gK00000YyBLEQA3
+🔍 Validating Account: 001gK00000YyBLEQA3
+✅ Account name validated: ChannelPro Distributors_1766737710027
+✅ Account type validated: Customer - Channel
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000YyRUnQAN/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000YyRUnQAN
+✅ Created Account: InstallTech Services_1766737719511 (Installation Partner) | ID: 001gK00000YyRUnQAN
+🔍 Validating Account: 001gK00000YyRUnQAN
+✅ Account name validated: InstallTech Services_1766737719511
+✅ Account type validated: Installation Partner
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000YwXbBQAV/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000YwXbBQAV
+✅ Created Account: TechBridge Partners_1766737728878 (Technology Partner) | ID: 001gK00000YwXbBQAV
+🔍 Validating Account: 001gK00000YwXbBQAV
+✅ Account name validated: TechBridge Partners_1766737728878
+✅ Account type validated: Technology Partner
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000YyBWUQA3/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000YyBWUQA3
+✅ Created Account: GenericCorp Ltd_1766737738150 (Other) | ID: 001gK00000YyBWUQA3
+🔍 Validating Account: 001gK00000YyBWUQA3
+✅ Account name validated: GenericCorp Ltd_1766737738150
+✅ Account type validated: Other
