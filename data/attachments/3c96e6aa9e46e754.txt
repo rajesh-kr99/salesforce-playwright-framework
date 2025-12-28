@@ -1,0 +1,12 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000ZDPNpQAP/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000ZDPNpQAP
+✅ Created Account: TypeChange Corp_1766910532987 (Prospect) | ID: 001gK00000ZDPNpQAP
+🔄 Editing Account: 001gK00000ZDPNpQAP
+✏️ Updated type to: Customer - Direct
+✅ Account 001gK00000ZDPNpQAP successfully updated
+🔍 Validating Account: 001gK00000ZDPNpQAP
+✅ Account name validated: TypeChange Corp_1766910532987
+✅ Account type validated: Customer - Direct
+✅ Successfully changed account type from "Prospect" to "Customer - Direct"
