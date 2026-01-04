@@ -1,0 +1,13 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000a45pBQAQ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000a45pBQAQ
+✅ Created Account: Acme Solutions Inc_1767515727888 (Customer - Direct) | ID: 001gK00000a45pBQAQ
+✅ Account selected on attempt 1
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Opportunity/006gK00000AOdTtQAL/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 006gK00000AOdTtQAL
+✅ Created Opportunity: Opportunity_ClosedWon_1767515733499, ID: 006gK00000AOdTtQAL
+🚀 Starting stage movement for: 006gK00000AOdTtQAL
+→ Moving to stage: Closed Won
+✅ Successfully moved to: Closed Won
+✅ Opportunity_ClosedWon_1767515733499 moved to Closed Won
