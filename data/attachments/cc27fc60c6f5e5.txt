@@ -1,0 +1,26 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000a9vaFQAQ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000a9vaFQAQ
+✅ Created Account: ProspectCorp Industries_1767601983354 (Prospect) | ID: 001gK00000a9vaFQAQ
+🔍 Validating Account: 001gK00000a9vaFQAQ
+✅ Account name validated: ProspectCorp Industries_1767601983354
+✅ Account type validated: Prospect
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000aA28wQAC/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000aA28wQAC
+✅ Created Account: DirectBuy Solutions_1767601993012 (Customer - Direct) | ID: 001gK00000aA28wQAC
+🔍 Validating Account: 001gK00000aA28wQAC
+✅ Account name validated: DirectBuy Solutions_1767601993012
+✅ Account type validated: Customer - Direct
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000aAQ1OQAW/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000aAQ1OQAW
+✅ Created Account: ChannelPro Distributors_1767602002426 (Customer - Channel) | ID: 001gK00000aAQ1OQAW
+🔍 Validating Account: 001gK00000aAQ1OQAW
+✅ Account name validated: ChannelPro Distributors_1767602002426
+✅ Account type validated: Customer - Channel
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000aAQ9NQAW/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000aAQ9NQAW
+✅ Created Account: InstallTech Services_1767602011544 (Installation Partner) | ID: 001gK00000aAQ9NQAW
+🔍 Validating Account: 001gK00000aAQ9NQAW
+✅ Account name validated: InstallTech Services_1767602011544
+✅ Account type validated: Installation Partner
