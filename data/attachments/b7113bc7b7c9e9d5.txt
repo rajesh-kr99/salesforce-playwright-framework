@@ -1,0 +1,41 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000aQNykQAG/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000aQNykQAG
+✅ Created Account: Acme Solutions Inc_1767775096525 (Customer - Direct) | ID: 001gK00000aQNykQAG
+✅ Account selected on attempt 1
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/006gK00000AV7qfQAD/view
+✅ [extractSalesforceId] Found ID in URL using fallback pattern (attempt 1): 006gK00000AV7qfQAD
+✅ Created Opportunity: E2E_Opportunity_1767775102714, ID: 006gK00000AV7qfQAD
+✅ Created Opportunity: E2E_Opportunity_1767775102714, ID: 006gK00000AV7qfQAD
+➡️ Moving to stage: Qualification
+🚀 Starting stage movement for: 006gK00000AV7qfQAD
+→ Moving to stage: Qualification
+✅ Successfully moved to: Qualification
+✅ Verified probability: 10%
+➡️ Moving to stage: Needs Analysis
+🚀 Starting stage movement for: 006gK00000AV7qfQAD
+→ Moving to stage: Needs Analysis
+✅ Successfully moved to: Needs Analysis
+✅ Verified probability: 20%
+➡️ Moving to stage: Value Proposition
+🚀 Starting stage movement for: 006gK00000AV7qfQAD
+→ Moving to stage: Value Proposition
+✅ Successfully moved to: Value Proposition
+✅ Verified probability: 50%
+➡️ Moving to stage: Id. Decision Makers
+🚀 Starting stage movement for: 006gK00000AV7qfQAD
+→ Moving to stage: Id. Decision Makers
+✅ Successfully moved to: Id. Decision Makers
+✅ Verified probability: 60%
+➡️ Moving to stage: Proposal/Price Quote
+🚀 Starting stage movement for: 006gK00000AV7qfQAD
+→ Moving to stage: Proposal/Price Quote
+✅ Successfully moved to: Proposal/Price Quote
+✅ Verified probability: 75%
+➡️ Moving to stage: Closed Won
+🚀 Starting stage movement for: 006gK00000AV7qfQAD
+→ Moving to stage: Closed Won
+✅ Successfully moved to: Closed Won
+✅ Verified probability: 100%
+🎯 E2E Opportunity Lifecycle Test Completed: E2E_Opportunity_1767775102714
