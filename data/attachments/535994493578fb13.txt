@@ -1,4 +1,0 @@
-✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
-📊 Querying Salesforce for Field Permissions...
-✅ Baseline saved to: /home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/data/baselineFieldPermissions.json
-📈 Total records: 35
