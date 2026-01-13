@@ -1,0 +1,26 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000bEnjVQAS/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000bEnjVQAS
+✅ Created Account: Acme Solutions Inc_1768293361576 (Customer - Direct) | ID: 001gK00000bEnjVQAS
+📋 Setup (beforeEach): Created Account Acme Solutions Inc_1768293361576 (001gK00000bEnjVQAS)
+
+🔢 ========== Test Iteration: 1 ==========
+🔎 Starting account lookup for: Acme Solutions Inc_1768293361576
+🔄 Account lookup attempt 1/3
+⚠️  Error on attempt 1: page.waitForSelector: Timeout 8000ms exceeded.
+Call log:
+  - waiting for locator('lightning-base-combobox-item') to be visible
+    6 × locator resolved to 7 elements. Proceeding with the first one: <lightning-base-combobox-item role="option" lwc-4kb6kaqheak="" exportparts="option" aria-checked="false" aria-selected="false" lwc-3povdhm22r3-host="" id="combobox-input-730-0-730" data-value="actionAdvancedSearch" data-item-id="combobox-input-730-0" class="slds-media slds-listbox__option slds-media_center slds-listbox__option_entity">…</lightning-base-combobox-item>
+    15 × locator resolved to 3 elements. Proceeding with the first one: <lightning-base-combobox-item role="option" lwc-4kb6kaqheak="" exportparts="option" aria-checked="false" aria-selected="false" lwc-3povdhm22r3-host="" id="combobox-input-730-0-730" data-value="actionAdvancedSearch" data-item-id="combobox-input-730-0" class="slds-media slds-listbox__option slds-media_center slds-listbox__option_entity">…</lightning-base-combobox-item>
+
+🔄 Account lookup attempt 2/3
+✅ Account selected using strategy 1
+✅ Account selected successfully on attempt 2
+📋 Account field value after selection: "Acme Solutions Inc_1768293361576"
+📧 Email added: Jane.Smith_5515@example.com
+✅ Save button clicked using strategy 1
+✅ Navigated to contact record page
+✅ [extractSalesforceId] Found ID in URL using fallback pattern (attempt 1): 003gK00000NXPnBQAX
+✅ Created Contact: Jane Smith_5515 | ID: 003gK00000NXPnBQAX
+✅ Secondary contact created: 003gK00000NXPnBQAX
