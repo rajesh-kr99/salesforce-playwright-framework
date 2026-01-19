@@ -1,0 +1,24 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+🧪 Testing edge case: Special character: ampersand
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000bm8HQQAY/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000bm8HQQAY
+✅ Created Account: Summit & Associates LLC_1768811647320 (Customer - Direct) | ID: 001gK00000bm8HQQAY
+🔍 Validating Account: 001gK00000bm8HQQAY
+✅ Account name validated: Summit & Associates LLC_1768811647320
+✅ Account type validated: Customer - Direct
+🧪 Testing edge case: Special character: apostrophe
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000blCBjQAM/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000blCBjQAM
+✅ Created Account: O'Reilly Tech Group_1768811657245 (Prospect) | ID: 001gK00000blCBjQAM
+🔍 Validating Account: 001gK00000blCBjQAM
+✅ Account name validated: O'Reilly Tech Group_1768811657245
+✅ Account type validated: Prospect
+🧪 Testing edge case: Special character: hyphen
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000bmIVCQA2/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000bmIVCQA2
+✅ Created Account: Apex-Dynamics International_1768811666662 (Technology Partner) | ID: 001gK00000bmIVCQA2
+🔍 Validating Account: 001gK00000bmIVCQA2
+✅ Account name validated: Apex-Dynamics International_1768811666662
+✅ Account type validated: Technology Partner
+🧪 Testing edge case: Maximum length test
