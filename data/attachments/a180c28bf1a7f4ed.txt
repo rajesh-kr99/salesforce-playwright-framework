@@ -1,0 +1,8 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000bz35JQAQ/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000bz35JQAQ
+✅ Created Account: Acme Solutions Inc_1768984423045 (Customer - Direct) | ID: 001gK00000bz35JQAQ
+🔄 Editing Account: 001gK00000bz35JQAQ
+✅ Account 001gK00000bz35JQAQ successfully updated with Account Number: ACC-1768984432068
+✅ Test completed: Account edited successfully with Account Number: ACC-1768984432068
