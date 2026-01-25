@@ -1,0 +1,6 @@
+✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+📊 Querying Salesforce for current Field Permissions...
+📂 Loading baseline...
+
+✅ Validation passed: No differences found
+📊 Compared 35 Field Permission records

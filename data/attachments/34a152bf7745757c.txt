@@ -1,0 +1,20 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 484ms
+⏳ [expectTextVisible] "was created" not visible yet (attempt 1)
+⏳ [expectTextVisible] "was created" not visible yet (attempt 2)
+✅ [expectTextVisible] "was created" found (attempt 3)
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/00QgK00000AVeoDUAT/view
+✅ [extractSalesforceId] Found ID in URL using fallback pattern (attempt 1): 00QgK00000AVeoDUAT
+✅ Created Lead: Convert Lead_1769373170703 (00QgK00000AVeoDUAT)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 1)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 2)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 3)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 4)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 5)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 6)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 7)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 8)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 9)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 10)
