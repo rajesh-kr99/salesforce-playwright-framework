@@ -1,6 +1,0 @@
-❌ Query failed: [
-  {
-    message: 'Your password has expired. Please reset your password.',
-    errorCode: 'INVALID_OPERATION_WITH_EXPIRED_PASSWORD'
-  }
-]
