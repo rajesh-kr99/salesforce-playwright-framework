@@ -1,0 +1,37 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 224ms
+⏳ [expectTextVisible] "was created" not visible yet (attempt 1)
+✅ [expectTextVisible] "was created" found (attempt 2)
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Lead/00QgK00000AXx8PUAT/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 00QgK00000AXx8PUAT
+✅ Created Lead: E2E Lead_1769503174848 (00QgK00000AXx8PUAT)
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 155ms
+⏳ [expectTextVisible] "Working - Contacted" not visible yet (attempt 1)
+✅ [expectTextVisible] "Working - Contacted" found (attempt 2)
+✅ Moved Lead 00QgK00000AXx8PUAT to Working - Contacted
+⚡ Waiting for Lightning page to load...
+✅ [waitForLightningLoad] Lightning UI ready in 497ms
+⏳ [expectTextVisible] "Closed - Converted" not visible yet (attempt 1)
+✅ [expectTextVisible] "Closed - Converted" found (attempt 2)
+✅ Moved Lead 00QgK00000AXx8PUAT to Closed - Converted
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 1)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 2)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 3)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 4)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 5)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 6)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 7)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 8)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 9)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 10)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 11)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 12)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 13)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 14)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 15)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 16)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 17)
+⏳ [expectTextVisible] "Your lead has been converted" not visible yet (attempt 18)
