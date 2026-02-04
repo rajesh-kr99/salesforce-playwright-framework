@@ -1,0 +1,10 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+🧪 Testing edge case: Special character: ampersand
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000dI0uLQAS/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000dI0uLQAS
+✅ Created Account: Summit & Associates LLC_1770192981338 (Customer - Direct) | ID: 001gK00000dI0uLQAS
+🔍 Validating Account: 001gK00000dI0uLQAS
+✅ Account name validated: Summit & Associates LLC_1770192981338
+✅ Account type validated: Customer - Direct
+🧪 Testing edge case: Special character: apostrophe
