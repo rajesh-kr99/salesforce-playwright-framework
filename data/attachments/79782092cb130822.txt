@@ -1,0 +1,15 @@
+📂 No existing session found, fresh login required
+🔐 Performing fresh login...
+🔑 Using JWT authentication (no OTP required)...
+✅ JWT Authentication successful
+📍 Instance URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+✅ JWT authentication successful
+🔗 Instance URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+✅ Successfully logged in via JWT
+✅ JWT session saved to auth.json
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000dMzsVQAS/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000dMzsVQAS
+✅ Created Account: Acme Solutions Inc_1770279372193 (Customer - Direct) | ID: 001gK00000dMzsVQAS
+🔍 Validating Account: 001gK00000dMzsVQAS
+✅ Account name validated: Acme Solutions Inc_1770279372193
+✅ Account type validated: Customer - Direct

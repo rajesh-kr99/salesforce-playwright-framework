@@ -1,0 +1,8 @@
+📂 Found existing auth.json, validating session...
+✅ Session is still valid, using existing authentication
+✅ [waitForRecordUrl] Record page URL detected: https://orgfarm-18f9b8b1f4-dev-ed.develop.lightning.force.com/lightning/r/Account/001gK00000dN2InQAK/view
+✅ [extractSalesforceId] Found ID in URL (attempt 1): 001gK00000dN2InQAK
+✅ Created Account: ProspectCorp Industries_1770279389305 (Prospect) | ID: 001gK00000dN2InQAK
+🔍 Validating Account: 001gK00000dN2InQAK
+✅ Account name validated: ProspectCorp Industries_1770279389305
+✅ Account type validated: Prospect
