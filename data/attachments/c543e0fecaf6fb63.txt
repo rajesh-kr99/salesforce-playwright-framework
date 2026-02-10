@@ -1,0 +1,7 @@
+Salesforce API Error: [
+  {
+    message: 'storage limit exceeded',
+    errorCode: 'STORAGE_LIMIT_EXCEEDED',
+    fields: []
+  }
+]
