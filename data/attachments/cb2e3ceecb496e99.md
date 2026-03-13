@@ -1,0 +1,1064 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button [ref=e17] [cursor=pointer]:
+              - img [ref=e19]
+              - img [ref=e28]
+            - paragraph [ref=e42]: Developer Edition
+          - button [ref=e51] [cursor=pointer]:
+            - img [ref=e53]
+            - generic [ref=e56]: Show menu
+        - generic [ref=e57]:
+          - button [ref=e63]:
+            - img [ref=e65]
+            - text: Search...
+          - navigation [ref=e68]:
+            - list [ref=e70]:
+              - listitem [ref=e71]:
+                - group [ref=e72]:
+                  - button [ref=e74] [cursor=pointer]:
+                    - img [ref=e79]
+                  - button [ref=e83] [cursor=pointer]:
+                    - img [ref=e88]
+              - listitem [ref=e91]:
+                - button [ref=e97] [cursor=pointer]:
+                  - img [ref=e102]
+              - listitem [ref=e105]:
+                - button [ref=e107] [cursor=pointer]:
+                  - img [ref=e112]
+              - listitem [ref=e115]:
+                - button [ref=e118] [cursor=pointer]:
+                  - img [ref=e123]
+              - listitem [ref=e126]:
+                - button [ref=e132] [cursor=pointer]:
+                  - img [ref=e137]
+              - listitem [ref=e140]:
+                - button [ref=e143] [cursor=pointer]:
+                  - img [ref=e149]
+              - listitem [ref=e153]:
+                - button [ref=e156] [cursor=pointer]
+      - generic [ref=e161]:
+        - generic [ref=e164]:
+          - generic [ref=e166]:
+            - navigation [ref=e167]:
+              - button [ref=e169] [cursor=pointer]:
+                - generic [ref=e180]: App Launcher
+            - heading [level=1] [ref=e181]:
+              - generic [ref=e182]: Sales
+          - navigation [ref=e185]:
+            - list [ref=e186]:
+              - listitem [ref=e187]:
+                - link [ref=e188] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e189]: Home
+              - listitem [ref=e190]:
+                - link [ref=e191] [cursor=pointer]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e192]: Opportunities
+                - button [ref=e196] [cursor=pointer]:
+                  - img [ref=e200]
+                  - generic [ref=e203]: Opportunities List
+              - listitem [ref=e204] [cursor=pointer]:
+                - link [ref=e205]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e206]: Leads
+                - button [ref=e210]:
+                  - img [ref=e214]
+                  - generic [ref=e217]: Leads List
+              - listitem [ref=e218]:
+                - link [ref=e219] [cursor=pointer]:
+                  - /url: /lightning/o/Task/home
+                  - generic [ref=e220]: Tasks
+                - button [ref=e224] [cursor=pointer]:
+                  - img [ref=e228]
+                  - generic [ref=e231]: Tasks List
+              - listitem [ref=e232]:
+                - link [ref=e233] [cursor=pointer]:
+                  - /url: /lightning/o/ContentDocument/home
+                  - generic [ref=e234]: Files
+                - button [ref=e238] [cursor=pointer]:
+                  - img [ref=e242]
+                  - generic [ref=e245]: Files List
+              - listitem [ref=e246]:
+                - link [ref=e247] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e248]: Accounts
+                - button [ref=e252] [cursor=pointer]:
+                  - img [ref=e256]
+                  - generic [ref=e259]: Accounts List
+              - listitem [ref=e260]:
+                - link [ref=e261] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e262]: Contacts
+                - button [ref=e266] [cursor=pointer]:
+                  - img [ref=e270]
+                  - generic [ref=e273]: Contacts List
+              - listitem [ref=e274]:
+                - link [ref=e275] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e276]: Campaigns
+                - button [ref=e280] [cursor=pointer]:
+                  - img [ref=e284]
+                  - generic [ref=e287]: Campaigns List
+              - listitem [ref=e288]:
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e290]: Dashboards
+                - button [ref=e294] [cursor=pointer]:
+                  - img [ref=e298]
+                  - generic [ref=e301]: Dashboards List
+              - listitem [ref=e302]:
+                - link [ref=e303] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e304]: Reports
+                - button [ref=e308] [cursor=pointer]:
+                  - img [ref=e312]
+                  - generic [ref=e315]: Reports List
+              - listitem [ref=e316]:
+                - button [ref=e318] [cursor=pointer]:
+                  - generic [ref=e319]: More
+                  - img [ref=e323]
+                  - generic [ref=e326]: Show more navigation items
+              - listitem [ref=e327]:
+                - button [ref=e329] [cursor=pointer]:
+                  - img [ref=e331]
+                  - generic [ref=e334]: Edit nav items
+        - main [ref=e336]:
+          - generic [ref=e344]:
+            - generic [ref=e346]:
+              - generic [ref=e348]:
+                - generic [ref=e352]:
+                  - img [ref=e354]
+                  - generic [ref=e358]: Lead
+                - generic [ref=e359]:
+                  - heading [level=1] [ref=e360]: Leads
+                  - generic [ref=e365] [cursor=pointer]:
+                    - heading [level=1] [ref=e366]:
+                      - generic [ref=e367]: Leads
+                      - generic [ref=e368]: My Leads
+                    - button [ref=e371]:
+                      - img [ref=e373]
+                      - generic [ref=e376]: "Select a List View: Leads"
+              - group [ref=e380]:
+                - button [ref=e383] [cursor=pointer]:
+                  - img [ref=e385]
+                  - img [ref=e389]
+                  - generic [ref=e392]: Lead View Settings
+                - button [ref=e393] [cursor=pointer]:
+                  - img [ref=e395]
+                  - generic [ref=e398]: Refresh
+                - button [ref=e402] [cursor=pointer]:
+                  - img [ref=e404]
+                  - generic [ref=e407]: Edit List
+                - group [ref=e409]:
+                  - generic [ref=e411]:
+                    - button [ref=e413] [cursor=pointer]: New
+                    - button [ref=e415] [cursor=pointer]: List View
+            - generic [ref=e417]:
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - generic [ref=e423]:
+                    - generic [ref=e425]: Created
+                    - button [ref=e430] [cursor=pointer]:
+                      - text: This Quarter
+                      - img [ref=e432]
+                  - generic [ref=e435]:
+                    - generic [ref=e437]: Owner
+                    - button [ref=e442] [cursor=pointer]:
+                      - text: Me
+                      - img [ref=e444]
+                - group [ref=e449]:
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - button [ref=e455] [cursor=pointer]:
+                        - img [ref=e457]
+                        - generic [ref=e460]: Important Leads
+                      - generic [ref=e461]: Apply Important Leads Filter
+                    - tooltip [ref=e462]: Shows the leads you mark as important. If you filter your view, the same filters apply.
+                  - button [ref=e466] [cursor=pointer]:
+                    - img [ref=e468]
+                    - generic [ref=e471]: Show filters
+              - group [ref=e474]:
+                - button [pressed] [ref=e476] [cursor=pointer]:
+                  - generic [ref=e477]:
+                    - paragraph [ref=e479]: Total Leads
+                    - paragraph [ref=e480]: "186"
+                - generic [ref=e481]:
+                  - button [ref=e482] [cursor=pointer]:
+                    - generic [ref=e483]:
+                      - paragraph [ref=e485]: No Activity
+                      - paragraph [ref=e487]: "186"
+                  - button [ref=e491] [cursor=pointer]:
+                    - img [ref=e493]
+                    - generic [ref=e496]: Help
+                - generic [ref=e497]:
+                  - button [ref=e498] [cursor=pointer]:
+                    - generic [ref=e499]:
+                      - paragraph [ref=e501]: Idle
+                      - paragraph [ref=e503]: "0"
+                  - button [ref=e507] [cursor=pointer]:
+                    - img [ref=e509]
+                    - generic [ref=e512]: Help
+                - generic [ref=e513]:
+                  - button [ref=e514] [cursor=pointer]:
+                    - generic [ref=e515]:
+                      - paragraph [ref=e517]: No Upcoming
+                      - paragraph [ref=e519]: "0"
+                  - button [ref=e523] [cursor=pointer]:
+                    - img [ref=e525]
+                    - generic [ref=e528]: Help
+                - button [ref=e530] [cursor=pointer]:
+                  - generic [ref=e531]:
+                    - paragraph [ref=e533]: Overdue
+                    - paragraph [ref=e534]: "0"
+                - button [ref=e536] [cursor=pointer]:
+                  - generic [ref=e537]:
+                    - paragraph [ref=e539]: Due Today
+                    - paragraph [ref=e540]: "0"
+                - generic [ref=e541]:
+                  - button [ref=e542] [cursor=pointer]:
+                    - generic [ref=e543]:
+                      - paragraph [ref=e545]: Upcoming
+                      - paragraph [ref=e547]: "0"
+                  - button [ref=e551] [cursor=pointer]:
+                    - img [ref=e553]
+                    - generic [ref=e556]: Help
+              - generic [ref=e558]:
+                - generic [ref=e560]:
+                  - status [ref=e564]: 25 items • Filtered by Created Date, Me, Total Leads
+                  - group [ref=e567]:
+                    - generic [ref=e569]:
+                      - button [ref=e571] [cursor=pointer]: Change Status
+                      - button [ref=e573] [cursor=pointer]: Change Owner
+                      - button [ref=e575] [cursor=pointer]: Send Email
+                      - button [ref=e577] [cursor=pointer]: Assign Label
+                - generic [ref=e588]:
+                  - generic [ref=e589]: Navigation Mode
+                  - grid [ref=e593]:
+                    - generic [ref=e597]:
+                      - generic [ref=e598]: Choose a Row
+                      - generic [ref=e600]:
+                        - checkbox [ref=e601]
+                        - generic [ref=e604]: Select 25 items
+                    - generic [ref=e606]:
+                      - button [ref=e607] [cursor=pointer]:
+                        - generic [ref=e608]: "Sort by:"
+                        - generic [ref=e609]: Name
+                      - generic [ref=e610]: "Sorted: None"
+                      - button [ref=e612] [cursor=pointer]:
+                        - img [ref=e614]
+                        - generic [ref=e617]: Show Name column actions
+                      - slider [ref=e618]: "201"
+                    - generic [ref=e626]:
+                      - img [ref=e628]
+                      - generic [ref=e631]: Important
+                    - generic [ref=e633]:
+                      - button [ref=e634] [cursor=pointer]:
+                        - generic [ref=e635]: "Sort by:"
+                        - generic [ref=e636]: Title
+                      - generic [ref=e637]: "Sorted: None"
+                      - button [ref=e639] [cursor=pointer]:
+                        - img [ref=e641]
+                        - generic [ref=e644]: Show Title column actions
+                      - slider [ref=e645]: "140"
+                    - generic [ref=e649]:
+                      - button [ref=e650] [cursor=pointer]:
+                        - generic [ref=e651]: "Sort by:"
+                        - generic [ref=e652]: Company
+                      - generic [ref=e653]: "Sorted: None"
+                      - button [ref=e655] [cursor=pointer]:
+                        - img [ref=e657]
+                        - generic [ref=e660]: Show Company column actions
+                      - slider [ref=e661]: "171"
+                    - generic [ref=e665]:
+                      - button [ref=e666] [cursor=pointer]:
+                        - generic [ref=e667]: "Sort by:"
+                        - generic [ref=e668]: Lead Status
+                      - generic [ref=e669]: "Sorted: None"
+                      - button [ref=e671] [cursor=pointer]:
+                        - img [ref=e673]
+                        - generic [ref=e676]: Show Lead Status column actions
+                      - slider [ref=e677]: "140"
+                    - generic [ref=e681]:
+                      - button [ref=e682] [cursor=pointer]:
+                        - generic [ref=e683]: "Sort by:"
+                        - generic [ref=e684]: Lead Source
+                      - generic [ref=e685]: "Sorted: None"
+                      - button [ref=e687] [cursor=pointer]:
+                        - img [ref=e689]
+                        - generic [ref=e692]: Show Lead Source column actions
+                      - slider [ref=e693]: "194"
+                    - generic [ref=e697]:
+                      - button [ref=e698] [cursor=pointer]:
+                        - generic [ref=e699]: "Sort by:"
+                        - generic [ref=e700]: Last Activity
+                      - generic [ref=e701]: "Sorted: None"
+                      - button [ref=e703] [cursor=pointer]:
+                        - img [ref=e705]
+                        - generic [ref=e708]: Show Last Activity column actions
+                      - slider [ref=e709]: "140"
+                    - generic [ref=e715]: Actions
+                    - rowgroup [ref=e719]:
+                      - row [ref=e720]:
+                        - gridcell [ref=e721]
+                        - gridcell [ref=e726]:
+                          - generic [ref=e728]:
+                            - checkbox [ref=e729]
+                            - generic [ref=e732]: Select Item 1
+                        - rowheader [ref=e733]:
+                          - generic [ref=e735]:
+                            - generic [ref=e739]:
+                              - link [ref=e742] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009HgleUAC/view
+                                - generic [ref=e743]: Convert Lead_1767256440075
+                              - button [ref=e745] [cursor=pointer]:
+                                - img [ref=e747]
+                                - generic [ref=e750]: "View Activity: Convert Lead_1767256440075"
+                            - img [ref=e751]:
+                              - img [ref=e753]
+                        - gridcell [ref=e756]:
+                          - button [ref=e765] [cursor=pointer]:
+                            - img [ref=e767]
+                            - generic [ref=e770]: "Mark Important: Convert Lead_1767256440075"
+                        - gridcell [ref=e771]:
+                          - button [ref=e774] [cursor=pointer]:
+                            - img [ref=e776]
+                            - generic [ref=e779]: Edit Title
+                        - gridcell [ref=e780]:
+                          - generic [ref=e782]:
+                            - generic [ref=e785]: ConvertCorp
+                            - button [ref=e786] [cursor=pointer]:
+                              - img [ref=e788]
+                              - generic [ref=e791]: Edit Company
+                        - gridcell [ref=e792]:
+                          - generic [ref=e794]:
+                            - generic [ref=e797]: Closed - Converted
+                            - button [ref=e798] [cursor=pointer]:
+                              - img [ref=e800]
+                              - generic [ref=e803]: Edit Lead Status
+                        - gridcell [ref=e804]:
+                          - generic [ref=e806]:
+                            - generic [ref=e809]: Partner Referral
+                            - button [ref=e810] [cursor=pointer]:
+                              - img [ref=e812]
+                              - generic [ref=e815]: Edit Lead Source
+                        - gridcell [ref=e816]:
+                          - img [ref=e819]:
+                            - img [ref=e821]
+                        - gridcell [ref=e824]:
+                          - group [ref=e831]:
+                            - generic [ref=e833]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e834]:
+                          - button [ref=e841] [cursor=pointer]:
+                            - img [ref=e843]
+                            - generic [ref=e846]: Show Actions
+                      - row [ref=e847]:
+                        - gridcell [ref=e848]
+                        - gridcell [ref=e853]:
+                          - generic [ref=e855]:
+                            - checkbox [ref=e856]
+                            - generic [ref=e859]: Select Item 2
+                        - rowheader [ref=e860]:
+                          - generic [ref=e862]:
+                            - generic [ref=e866]:
+                              - link [ref=e869] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009Hh50UAC/view
+                                - generic [ref=e870]: E2E Lead_1767256463041
+                              - button [ref=e872] [cursor=pointer]:
+                                - img [ref=e874]
+                                - generic [ref=e877]: "View Activity: E2E Lead_1767256463041"
+                            - img [ref=e878]:
+                              - img [ref=e880]
+                        - gridcell [ref=e883]:
+                          - button [ref=e892] [cursor=pointer]:
+                            - img [ref=e894]
+                            - generic [ref=e897]: "Mark Important: E2E Lead_1767256463041"
+                        - gridcell [ref=e898]:
+                          - button [ref=e901] [cursor=pointer]:
+                            - img [ref=e903]
+                            - generic [ref=e906]: Edit Title
+                        - gridcell [ref=e907]:
+                          - generic [ref=e909]:
+                            - generic [ref=e912]: FullCycle Corp
+                            - button [ref=e913] [cursor=pointer]:
+                              - img [ref=e915]
+                              - generic [ref=e918]: Edit Company
+                        - gridcell [ref=e919]:
+                          - generic [ref=e921]:
+                            - generic [ref=e924]: Closed - Converted
+                            - button [ref=e925] [cursor=pointer]:
+                              - img [ref=e927]
+                              - generic [ref=e930]: Edit Lead Status
+                        - gridcell [ref=e931]:
+                          - generic [ref=e933]:
+                            - generic [ref=e936]: Web
+                            - button [ref=e937] [cursor=pointer]:
+                              - img [ref=e939]
+                              - generic [ref=e942]: Edit Lead Source
+                        - gridcell [ref=e943]:
+                          - img [ref=e946]:
+                            - img [ref=e948]
+                        - gridcell [ref=e951]:
+                          - group [ref=e958]:
+                            - generic [ref=e960]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e961]:
+                          - button [ref=e968] [cursor=pointer]:
+                            - img [ref=e970]
+                            - generic [ref=e973]: Show Actions
+                      - row [ref=e974]:
+                        - gridcell [ref=e975]
+                        - gridcell [ref=e980]:
+                          - generic [ref=e982]:
+                            - checkbox [ref=e983]
+                            - generic [ref=e986]: Select Item 3
+                        - rowheader [ref=e987]:
+                          - generic [ref=e989]:
+                            - generic [ref=e993]:
+                              - link [ref=e996] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009Hj0LUAS/view
+                                - generic [ref=e997]: Automation Lead_1767256454295
+                              - button [ref=e999] [cursor=pointer]:
+                                - img [ref=e1001]
+                                - generic [ref=e1004]: "View Activity: Automation Lead_1767256454295"
+                            - img [ref=e1005]:
+                              - img [ref=e1007]
+                        - gridcell [ref=e1010]:
+                          - button [ref=e1019] [cursor=pointer]:
+                            - img [ref=e1021]
+                            - generic [ref=e1024]: "Mark Important: Automation Lead_1767256454295"
+                        - gridcell [ref=e1025]:
+                          - button [ref=e1028] [cursor=pointer]:
+                            - img [ref=e1030]
+                            - generic [ref=e1033]: Edit Title
+                        - gridcell [ref=e1034]:
+                          - generic [ref=e1036]:
+                            - generic [ref=e1039]: TestCorp Inc.
+                            - button [ref=e1040] [cursor=pointer]:
+                              - img [ref=e1042]
+                              - generic [ref=e1045]: Edit Company
+                        - gridcell [ref=e1046]:
+                          - generic [ref=e1048]:
+                            - generic [ref=e1051]: Open - Not Contacted
+                            - button [ref=e1052] [cursor=pointer]:
+                              - img [ref=e1054]
+                              - generic [ref=e1057]: Edit Lead Status
+                        - gridcell [ref=e1058]:
+                          - generic [ref=e1060]:
+                            - generic [ref=e1063]: Web
+                            - button [ref=e1064] [cursor=pointer]:
+                              - img [ref=e1066]
+                              - generic [ref=e1069]: Edit Lead Source
+                        - gridcell [ref=e1070]:
+                          - img [ref=e1073]:
+                            - img [ref=e1075]
+                        - gridcell [ref=e1078]:
+                          - group [ref=e1085]:
+                            - generic [ref=e1087]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e1088]:
+                          - button [ref=e1095] [cursor=pointer]:
+                            - img [ref=e1097]
+                            - generic [ref=e1100]: Show Actions
+                      - row [ref=e1101]:
+                        - gridcell [ref=e1102]
+                        - gridcell [ref=e1107]:
+                          - generic [ref=e1109]:
+                            - checkbox [ref=e1110]
+                            - generic [ref=e1113]: Select Item 4
+                        - rowheader [ref=e1114]:
+                          - generic [ref=e1116]:
+                            - generic [ref=e1120]:
+                              - link [ref=e1123] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009Hj8PUAS/view
+                                - generic [ref=e1124]: Validation Lead_1767256486122
+                              - button [ref=e1126] [cursor=pointer]:
+                                - img [ref=e1128]
+                                - generic [ref=e1131]: "View Activity: Validation Lead_1767256486122"
+                            - img [ref=e1132]:
+                              - img [ref=e1134]
+                        - gridcell [ref=e1137]:
+                          - button [ref=e1146] [cursor=pointer]:
+                            - img [ref=e1148]
+                            - generic [ref=e1151]: "Mark Important: Validation Lead_1767256486122"
+                        - gridcell [ref=e1152]:
+                          - button [ref=e1155] [cursor=pointer]:
+                            - img [ref=e1157]
+                            - generic [ref=e1160]: Edit Title
+                        - gridcell [ref=e1161]:
+                          - generic [ref=e1163]:
+                            - generic [ref=e1166]: ValidCorp
+                            - button [ref=e1167] [cursor=pointer]:
+                              - img [ref=e1169]
+                              - generic [ref=e1172]: Edit Company
+                        - gridcell [ref=e1173]:
+                          - generic [ref=e1175]:
+                            - generic [ref=e1178]: Open - Not Contacted
+                            - button [ref=e1179] [cursor=pointer]:
+                              - img [ref=e1181]
+                              - generic [ref=e1184]: Edit Lead Status
+                        - gridcell [ref=e1185]:
+                          - generic [ref=e1187]:
+                            - generic [ref=e1190]: Web
+                            - button [ref=e1191] [cursor=pointer]:
+                              - img [ref=e1193]
+                              - generic [ref=e1196]: Edit Lead Source
+                        - gridcell [ref=e1197]:
+                          - img [ref=e1200]:
+                            - img [ref=e1202]
+                        - gridcell [ref=e1205]:
+                          - group [ref=e1212]:
+                            - generic [ref=e1214]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e1215]:
+                          - button [ref=e1222] [cursor=pointer]:
+                            - img [ref=e1224]
+                            - generic [ref=e1227]: Show Actions
+                      - row [ref=e1228]:
+                        - gridcell [ref=e1229]
+                        - gridcell [ref=e1234]:
+                          - generic [ref=e1236]:
+                            - checkbox [ref=e1237]
+                            - generic [ref=e1240]: Select Item 5
+                        - rowheader [ref=e1241]:
+                          - generic [ref=e1243]:
+                            - generic [ref=e1247]:
+                              - link [ref=e1250] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009JWbhUAG/view
+                                - generic [ref=e1251]: Convert Lead_1767342929805
+                              - button [ref=e1253] [cursor=pointer]:
+                                - img [ref=e1255]
+                                - generic [ref=e1258]: "View Activity: Convert Lead_1767342929805"
+                            - img [ref=e1259]:
+                              - img [ref=e1261]
+                        - gridcell [ref=e1264]:
+                          - button [ref=e1273] [cursor=pointer]:
+                            - img [ref=e1275]
+                            - generic [ref=e1278]: "Mark Important: Convert Lead_1767342929805"
+                        - gridcell [ref=e1279]:
+                          - button [ref=e1282] [cursor=pointer]:
+                            - img [ref=e1284]
+                            - generic [ref=e1287]: Edit Title
+                        - gridcell [ref=e1288]:
+                          - generic [ref=e1290]:
+                            - generic [ref=e1293]: ConvertCorp
+                            - button [ref=e1294] [cursor=pointer]:
+                              - img [ref=e1296]
+                              - generic [ref=e1299]: Edit Company
+                        - gridcell [ref=e1300]:
+                          - generic [ref=e1302]:
+                            - generic [ref=e1305]: Working - Contacted
+                            - button [ref=e1306] [cursor=pointer]:
+                              - img [ref=e1308]
+                              - generic [ref=e1311]: Edit Lead Status
+                        - gridcell [ref=e1312]:
+                          - generic [ref=e1314]:
+                            - generic [ref=e1317]: Partner Referral
+                            - button [ref=e1318] [cursor=pointer]:
+                              - img [ref=e1320]
+                              - generic [ref=e1323]: Edit Lead Source
+                        - gridcell [ref=e1324]:
+                          - img [ref=e1327]:
+                            - img [ref=e1329]
+                        - gridcell [ref=e1332]:
+                          - group [ref=e1339]:
+                            - generic [ref=e1341]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e1342]:
+                          - button [ref=e1349] [cursor=pointer]:
+                            - img [ref=e1351]
+                            - generic [ref=e1354]: Show Actions
+                      - row [ref=e1355]:
+                        - gridcell [ref=e1356]
+                        - gridcell [ref=e1361]:
+                          - generic [ref=e1363]:
+                            - checkbox [ref=e1364]
+                            - generic [ref=e1367]: Select Item 6
+                        - rowheader [ref=e1368]:
+                          - generic [ref=e1370]:
+                            - generic [ref=e1374]:
+                              - link [ref=e1377] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009JWi9UAG/view
+                                - generic [ref=e1378]: Convert Lead_1767342962287
+                              - button [ref=e1380] [cursor=pointer]:
+                                - img [ref=e1382]
+                                - generic [ref=e1385]: "View Activity: Convert Lead_1767342962287"
+                            - img [ref=e1386]:
+                              - img [ref=e1388]
+                        - gridcell [ref=e1391]:
+                          - button [ref=e1400] [cursor=pointer]:
+                            - img [ref=e1402]
+                            - generic [ref=e1405]: "Mark Important: Convert Lead_1767342962287"
+                        - gridcell [ref=e1406]:
+                          - button [ref=e1409] [cursor=pointer]:
+                            - img [ref=e1411]
+                            - generic [ref=e1414]: Edit Title
+                        - gridcell [ref=e1415]:
+                          - generic [ref=e1417]:
+                            - generic [ref=e1420]: ConvertCorp
+                            - button [ref=e1421] [cursor=pointer]:
+                              - img [ref=e1423]
+                              - generic [ref=e1426]: Edit Company
+                        - gridcell [ref=e1427]:
+                          - generic [ref=e1429]:
+                            - generic [ref=e1432]: Closed - Converted
+                            - button [ref=e1433] [cursor=pointer]:
+                              - img [ref=e1435]
+                              - generic [ref=e1438]: Edit Lead Status
+                        - gridcell [ref=e1439]:
+                          - generic [ref=e1441]:
+                            - generic [ref=e1444]: Partner Referral
+                            - button [ref=e1445] [cursor=pointer]:
+                              - img [ref=e1447]
+                              - generic [ref=e1450]: Edit Lead Source
+                        - gridcell [ref=e1451]:
+                          - img [ref=e1454]:
+                            - img [ref=e1456]
+                        - gridcell [ref=e1459]:
+                          - group [ref=e1466]:
+                            - generic [ref=e1468]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e1469]:
+                          - button [ref=e1476] [cursor=pointer]:
+                            - img [ref=e1478]
+                            - generic [ref=e1481]: Show Actions
+                      - row [ref=e1482]:
+                        - gridcell [ref=e1483]
+                        - gridcell [ref=e1488]:
+                          - generic [ref=e1490]:
+                            - checkbox [ref=e1491]
+                            - generic [ref=e1494]: Select Item 7
+                        - rowheader [ref=e1495]:
+                          - generic [ref=e1497]:
+                            - generic [ref=e1501]:
+                              - link [ref=e1504] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009JWobUAG/view
+                                - generic [ref=e1505]: Automation Lead_1767342981188
+                              - button [ref=e1507] [cursor=pointer]:
+                                - img [ref=e1509]
+                                - generic [ref=e1512]: "View Activity: Automation Lead_1767342981188"
+                            - img [ref=e1513]:
+                              - img [ref=e1515]
+                        - gridcell [ref=e1518]:
+                          - button [ref=e1527] [cursor=pointer]:
+                            - img [ref=e1529]
+                            - generic [ref=e1532]: "Mark Important: Automation Lead_1767342981188"
+                        - gridcell [ref=e1533]:
+                          - button [ref=e1536] [cursor=pointer]:
+                            - img [ref=e1538]
+                            - generic [ref=e1541]: Edit Title
+                        - gridcell [ref=e1542]:
+                          - generic [ref=e1544]:
+                            - generic [ref=e1547]: TestCorp Inc.
+                            - button [ref=e1548] [cursor=pointer]:
+                              - img [ref=e1550]
+                              - generic [ref=e1553]: Edit Company
+                        - gridcell [ref=e1554]:
+                          - generic [ref=e1556]:
+                            - generic [ref=e1559]: Open - Not Contacted
+                            - button [ref=e1560] [cursor=pointer]:
+                              - img [ref=e1562]
+                              - generic [ref=e1565]: Edit Lead Status
+                        - gridcell [ref=e1566]:
+                          - generic [ref=e1568]:
+                            - generic [ref=e1571]: Web
+                            - button [ref=e1572] [cursor=pointer]:
+                              - img [ref=e1574]
+                              - generic [ref=e1577]: Edit Lead Source
+                        - gridcell [ref=e1578]:
+                          - img [ref=e1581]:
+                            - img [ref=e1583]
+                        - gridcell [ref=e1586]:
+                          - group [ref=e1593]:
+                            - generic [ref=e1595]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e1596]:
+                          - button [ref=e1603] [cursor=pointer]:
+                            - img [ref=e1605]
+                            - generic [ref=e1608]: Show Actions
+                      - row [ref=e1609]:
+                        - gridcell [ref=e1610]
+                        - gridcell [ref=e1615]:
+                          - generic [ref=e1617]:
+                            - checkbox [ref=e1618]
+                            - generic [ref=e1621]: Select Item 8
+                        - rowheader [ref=e1622]:
+                          - generic [ref=e1624]:
+                            - generic [ref=e1628]:
+                              - link [ref=e1631] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QgK000009JWqDUAW/view
+                                - generic [ref=e1632]: E2E Lead_1767342991292
+                              - button [ref=e1634] [cursor=pointer]:
+                                - img [ref=e1636]
+                                - generic [ref=e1639]: "View Activity: E2E Lead_1767342991292"
+                            - img [ref=e1640]:
+                              - img [ref=e1642]
+                        - gridcell [ref=e1645]:
+                          - button [ref=e1654] [cursor=pointer]:
+                            - img [ref=e1656]
+                            - generic [ref=e1659]: "Mark Important: E2E Lead_1767342991292"
+                        - gridcell [ref=e1660]:
+                          - button [ref=e1663] [cursor=pointer]:
+                            - img [ref=e1665]
+                            - generic [ref=e1668]: Edit Title
+                        - gridcell [ref=e1669]:
+                          - generic [ref=e1671]:
+                            - generic [ref=e1674]: FullCycle Corp
+                            - button [ref=e1675] [cursor=pointer]:
+                              - img [ref=e1677]
+                              - generic [ref=e1680]: Edit Company
+                        - gridcell [ref=e1681]:
+                          - generic [ref=e1683]:
+                            - generic [ref=e1686]: Closed - Converted
+                            - button [ref=e1687] [cursor=pointer]:
+                              - img [ref=e1689]
+                              - generic [ref=e1692]: Edit Lead Status
+                        - gridcell [ref=e1693]:
+                          - generic [ref=e1695]:
+                            - generic [ref=e1698]: Web
+                            - button [ref=e1699] [cursor=pointer]:
+                              - img [ref=e1701]
+                              - generic [ref=e1704]: Edit Lead Source
+                        - gridcell [ref=e1705]:
+                          - img [ref=e1708]:
+                            - img [ref=e1710]
+                        - gridcell [ref=e1713]:
+                          - group [ref=e1720]:
+                            - generic [ref=e1722]:
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Email
+                              - generic:
+                                - button [disabled]:
+                                  - generic:
+                                    - img
+                                  - generic: Call
+                        - gridcell [ref=e1723]:
+                          - button [ref=e1730] [cursor=pointer]:
+                            - img [ref=e1732]
+                            - generic [ref=e1735]: Show Actions
+      - list [ref=e1738]:
+        - listitem [ref=e1739]:
+          - button [ref=e1742] [cursor=pointer]:
+            - img [ref=e1746]
+            - generic [ref=e1749]: To Do List
+    - generic [ref=e1750]:
+      - dialog [ref=e1752]:
+        - generic [ref=e1753]:
+          - button [ref=e1754] [cursor=pointer]:
+            - img [ref=e1756]
+            - generic [ref=e1759]: Cancel and close
+          - generic [ref=e1760]:
+            - generic [ref=e1767]:
+              - heading [level=2] [ref=e1769]: New Lead
+              - generic [ref=e1771]:
+                - generic [ref=e1772]: "* = Required Information"
+                - generic [ref=e1774]:
+                  - generic [ref=e1779]:
+                    - generic [ref=e1781]:
+                      - heading [level=3] [ref=e1782]:
+                        - generic [ref=e1783]: Lead Information
+                      - list [ref=e1785]:
+                        - generic [ref=e1786]:
+                          - generic [ref=e1788]:
+                            - listitem [ref=e1790]:
+                              - generic [ref=e1791]:
+                                - generic [ref=e1792]: Lead Owner
+                                - generic [ref=e1804]: Rajesh Katanguri
+                            - listitem [ref=e1806]:
+                              - generic [ref=e1811]:
+                                - generic [ref=e1812]: Phone
+                                - textbox [ref=e1814]
+                          - generic [ref=e1816]:
+                            - listitem [ref=e1818]:
+                              - button [ref=e1820] [cursor=pointer]:
+                                - img [ref=e1822]
+                              - group [ref=e1829]:
+                                - generic [ref=e1830]: "*Name"
+                                - generic [ref=e1833]:
+                                  - generic [ref=e1837]:
+                                    - generic [ref=e1839]: Salutation
+                                    - generic [ref=e1843]:
+                                      - combobox [ref=e1844] [cursor=pointer]:
+                                        - generic [ref=e1845]: "--None--"
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                  - generic [ref=e1849]:
+                                    - generic [ref=e1850]: First Name
+                                    - textbox [ref=e1852]:
+                                      - /placeholder: First Name
+                                      - text: Automation
+                                  - generic [ref=e1856]:
+                                    - generic [ref=e1857]: "*Last Name"
+                                    - textbox [ref=e1859]:
+                                      - /placeholder: Last Name
+                                      - text: Lead_1773390579847
+                            - listitem [ref=e1861]:
+                              - generic [ref=e1866]:
+                                - generic [ref=e1867]: Mobile
+                                - textbox [ref=e1869]
+                          - generic [ref=e1871]:
+                            - listitem [ref=e1873]:
+                              - button [ref=e1875] [cursor=pointer]:
+                                - img [ref=e1877]
+                              - generic [ref=e1885]:
+                                - generic [ref=e1886]: "*Company"
+                                - textbox [ref=e1888]: TestCorp Inc.
+                            - listitem [ref=e1890]:
+                              - generic [ref=e1895]:
+                                - generic [ref=e1896]: Fax
+                                - textbox [ref=e1898]
+                          - generic [ref=e1900]:
+                            - listitem [ref=e1902]:
+                              - generic [ref=e1908]:
+                                - generic [ref=e1909]: Title
+                                - textbox [ref=e1911]
+                            - listitem [ref=e1913]:
+                              - generic [ref=e1918]:
+                                - generic [ref=e1919]: Email
+                                - textbox [ref=e1921]
+                          - generic [ref=e1923]:
+                            - listitem [ref=e1925]:
+                              - button [ref=e1927] [cursor=pointer]:
+                                - img [ref=e1929]
+                              - generic [ref=e1938]:
+                                - generic [ref=e1940]: Lead Source
+                                - generic [ref=e1944]:
+                                  - combobox [ref=e1945] [cursor=pointer]:
+                                    - generic [ref=e1946]: Web
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e1948]:
+                              - generic [ref=e1953]:
+                                - generic [ref=e1954]: Website
+                                - textbox [ref=e1956]
+                          - generic [ref=e1958]:
+                            - listitem [ref=e1960]:
+                              - generic [ref=e1967]:
+                                - generic [ref=e1969]: Industry
+                                - generic [ref=e1973]:
+                                  - combobox [ref=e1974] [cursor=pointer]:
+                                    - generic [ref=e1975]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e1977]:
+                              - generic [ref=e1984]:
+                                - generic [ref=e1986]: "*Lead Status"
+                                - generic [ref=e1990]:
+                                  - combobox [ref=e1991] [cursor=pointer]:
+                                    - generic [ref=e1992]: Open - Not Contacted
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - generic [ref=e1994]:
+                            - listitem [ref=e1996]:
+                              - generic [ref=e2002]:
+                                - generic [ref=e2003]: Annual Revenue
+                                - spinbutton [ref=e2005]
+                            - listitem [ref=e2007]:
+                              - generic [ref=e2014]:
+                                - generic [ref=e2016]: Rating
+                                - generic [ref=e2020]:
+                                  - combobox [ref=e2021] [cursor=pointer]:
+                                    - generic [ref=e2022]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - listitem [ref=e2027]:
+                            - generic [ref=e2032]:
+                              - generic [ref=e2033]: No. of Employees
+                              - spinbutton [ref=e2035]
+                    - generic [ref=e2037]:
+                      - heading [level=3] [ref=e2038]:
+                        - generic [ref=e2039]: Address Information
+                      - list [ref=e2041]:
+                        - listitem [ref=e2046]:
+                          - group [ref=e2051]:
+                            - generic [ref=e2052]: Address
+                            - generic [ref=e2054]:
+                              - generic [ref=e2058]:
+                                - generic [ref=e2060]: Country
+                                - generic [ref=e2064]:
+                                  - combobox [ref=e2067]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                              - generic [ref=e2069]:
+                                - generic [ref=e2070]: Street
+                                - textbox [ref=e2072]
+                              - generic [ref=e2073]:
+                                - generic [ref=e2076]:
+                                  - generic [ref=e2077]: City
+                                  - textbox [ref=e2079]
+                                - generic [ref=e2082]:
+                                  - generic [ref=e2084]: State/Province
+                                  - generic [ref=e2088]:
+                                    - combobox [ref=e2091]: "--None--"
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                              - generic [ref=e2095]:
+                                - generic [ref=e2096]: Zip/Postal Code
+                                - textbox [ref=e2098]
+                    - generic [ref=e2101]:
+                      - heading [level=3] [ref=e2102]:
+                        - generic [ref=e2103]: Additional Information
+                      - list [ref=e2105]:
+                        - generic [ref=e2106]:
+                          - generic [ref=e2108]:
+                            - listitem [ref=e2110]:
+                              - generic [ref=e2117]:
+                                - generic [ref=e2119]: Product Interest
+                                - generic [ref=e2123]:
+                                  - combobox [ref=e2124] [cursor=pointer]:
+                                    - generic [ref=e2125]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e2127]:
+                              - generic [ref=e2133]:
+                                - generic [ref=e2134]: Current Generator(s)
+                                - textbox [ref=e2136]
+                          - generic [ref=e2138]:
+                            - listitem [ref=e2140]:
+                              - generic [ref=e2146]:
+                                - generic [ref=e2147]: SIC Code
+                                - textbox [ref=e2149]
+                            - listitem [ref=e2151]:
+                              - generic [ref=e2158]:
+                                - generic [ref=e2160]: Primary
+                                - generic [ref=e2164]:
+                                  - combobox [ref=e2165] [cursor=pointer]:
+                                    - generic [ref=e2166]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - listitem [ref=e2170]:
+                            - generic [ref=e2175]:
+                              - generic [ref=e2176]: Number of Locations
+                              - spinbutton [ref=e2178]
+                    - generic [ref=e2181]:
+                      - heading [level=3] [ref=e2182]:
+                        - generic [ref=e2183]: Description Information
+                      - list [ref=e2185]:
+                        - listitem [ref=e2190]:
+                          - generic [ref=e2194]:
+                            - generic [ref=e2195]: Description
+                            - textbox [ref=e2197]
+                  - generic [ref=e2200]:
+                    - button [ref=e2201] [cursor=pointer]:
+                      - generic [ref=e2203]:
+                        - img [ref=e2205]
+                        - generic [ref=e2208]: Error
+                    - generic [ref=e2210]:
+                      - button [ref=e2216] [cursor=pointer]: Cancel
+                      - button [ref=e2222] [cursor=pointer]: Save & New
+                      - button [ref=e2228] [cursor=pointer]: Save
+            - status [ref=e2229]
+      - dialog "We hit a snag." [ref=e2230]:
+        - generic [ref=e2231]:
+          - generic [ref=e2233]:
+            - button "Close error dialog" [ref=e2235] [cursor=pointer]:
+              - img [ref=e2237]
+              - generic [ref=e2240]: Close error dialog
+            - banner [ref=e2241]:
+              - generic [ref=e2242]:
+                - img [ref=e2247]
+                - heading "We hit a snag." [active] [level=2] [ref=e2251]
+          - generic [ref=e2255]:
+            - strong [ref=e2257]: Review the errors on this page.
+            - list [ref=e2258]:
+              - listitem [ref=e2259]: storage limit exceeded
+  - generic:
+    - status
+```
