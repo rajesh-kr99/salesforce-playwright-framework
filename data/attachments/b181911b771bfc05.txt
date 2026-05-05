@@ -1,0 +1,11 @@
+✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+POST URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com/services/data/v64.0/sobjects/Account
+Payload: {
+  "Name": "API Test Prospect Company_2026-05-05T090600897Z",
+  "Phone": "123-456-7890",
+  "Industry": "Technology",
+  "AnnualRevenue": 5000000,
+  "NumberOfEmployees": 250,
+  "Description": "Prospect account created via API automation",
+  "Type": "Prospect"
+}
