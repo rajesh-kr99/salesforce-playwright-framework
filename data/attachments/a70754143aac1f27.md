@@ -1,0 +1,233 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e24]: Menu
+          - generic [ref=e29]:
+            - img [ref=e33]
+            - generic [ref=e36]: Developer Edition
+        - button "Show menu" [ref=e45] [cursor=pointer]:
+          - img [ref=e47]
+          - generic [ref=e50]: Show menu
+      - generic [ref=e51]:
+        - button "Search" [ref=e57]:
+          - img [ref=e59]
+          - text: Search...
+        - navigation "Global Header" [ref=e62]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - group [ref=e66]:
+                - button "Add favorite" [ref=e68] [cursor=pointer]:
+                  - generic [ref=e69]:
+                    - img [ref=e73]
+                    - tooltip "Add favorite"
+                - button "Favorites list" [ref=e77] [cursor=pointer]:
+                  - generic [ref=e78]:
+                    - img [ref=e82]
+                    - tooltip "Favorites list"
+            - listitem [ref=e85]:
+              - button "Global Actions" [ref=e91] [cursor=pointer]:
+                - generic [ref=e92]:
+                  - img [ref=e96]
+                  - tooltip "Global Actions"
+            - listitem [ref=e99]:
+              - button "Guidance Center" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]:
+                  - img [ref=e106]
+                  - tooltip "Guidance Center"
+            - listitem [ref=e109]:
+              - button "Salesforce Help" [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - img [ref=e117]
+                  - tooltip "Salesforce Help"
+            - listitem [ref=e120]:
+              - button "Setup" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]:
+                  - img [ref=e131]
+                  - tooltip "Setup"
+            - listitem [ref=e134]:
+              - button "Notifications" [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - img [ref=e143]
+                  - tooltip "Notifications"
+            - listitem [ref=e147]:
+              - button "View profile" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]:
+                  - tooltip "View profile"
+    - generic [ref=e155]:
+      - generic [ref=e158]:
+        - generic [ref=e160]:
+          - navigation "App" [ref=e161]:
+            - button "App Launcher" [ref=e163] [cursor=pointer]:
+              - generic [ref=e174]: App Launcher
+          - heading "Sales" [level=1] [ref=e175]:
+            - generic "Sales" [ref=e176]
+        - navigation "Global" [ref=e179]:
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - link "Home" [ref=e182] [cursor=pointer]:
+                - /url: /lightning/page/home
+                - generic [ref=e183]: Home
+            - listitem [ref=e184]:
+              - link "Opportunities" [ref=e185] [cursor=pointer]:
+                - /url: /lightning/o/Opportunity/home
+                - generic [ref=e186]: Opportunities
+              - button "Opportunities List" [ref=e190] [cursor=pointer]:
+                - img [ref=e194]
+                - generic [ref=e197]: Opportunities List
+            - listitem [ref=e198]:
+              - link "Leads" [ref=e199] [cursor=pointer]:
+                - /url: /lightning/o/Lead/home
+                - generic [ref=e200]: Leads
+              - button "Leads List" [ref=e204] [cursor=pointer]:
+                - img [ref=e208]
+                - generic [ref=e211]: Leads List
+            - listitem [ref=e212]:
+              - link "Tasks" [ref=e213] [cursor=pointer]:
+                - /url: /lightning/o/Task/home
+                - generic [ref=e214]: Tasks
+              - button "Tasks List" [ref=e218] [cursor=pointer]:
+                - img [ref=e222]
+                - generic [ref=e225]: Tasks List
+            - listitem [ref=e226]:
+              - link "Files" [ref=e227] [cursor=pointer]:
+                - /url: /lightning/o/ContentDocument/home
+                - generic [ref=e228]: Files
+              - button "Files List" [ref=e232] [cursor=pointer]:
+                - img [ref=e236]
+                - generic [ref=e239]: Files List
+            - listitem [ref=e240] [cursor=pointer]:
+              - link "Accounts" [ref=e241]:
+                - /url: /lightning/o/Account/home
+                - generic [ref=e242]: Accounts
+              - button "Accounts List" [ref=e246]:
+                - img [ref=e250]
+                - generic [ref=e253]: Accounts List
+            - listitem [ref=e254]:
+              - link "Contacts" [ref=e255] [cursor=pointer]:
+                - /url: /lightning/o/Contact/home
+                - generic [ref=e256]: Contacts
+              - button "Contacts List" [ref=e260] [cursor=pointer]:
+                - img [ref=e264]
+                - generic [ref=e267]: Contacts List
+            - listitem [ref=e268]:
+              - link "Campaigns" [ref=e269] [cursor=pointer]:
+                - /url: /lightning/o/Campaign/home
+                - generic [ref=e270]: Campaigns
+              - button "Campaigns List" [ref=e274] [cursor=pointer]:
+                - img [ref=e278]
+                - generic [ref=e281]: Campaigns List
+            - listitem [ref=e282]:
+              - link "Dashboards" [ref=e283] [cursor=pointer]:
+                - /url: /lightning/o/Dashboard/home
+                - generic [ref=e284]: Dashboards
+              - button "Dashboards List" [ref=e288] [cursor=pointer]:
+                - img [ref=e292]
+                - generic [ref=e295]: Dashboards List
+            - listitem [ref=e296]:
+              - button "Show more navigation items" [ref=e298] [cursor=pointer]:
+                - generic [ref=e299]: More
+                - img [ref=e303]
+                - generic [ref=e306]: Show more navigation items
+            - listitem [ref=e307]:
+              - button "Edit nav items" [ref=e309] [cursor=pointer]:
+                - img [ref=e311]
+                - generic [ref=e314]: Edit nav items
+      - main [ref=e316]:
+        - generic [ref=e326]:
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - generic [ref=e331]:
+                - img [ref=e335]
+                - generic [ref=e336]:
+                  - heading "Accounts" [level=1] [ref=e340]
+                  - generic [ref=e341]:
+                    - generic [ref=e343] [cursor=pointer]:
+                      - heading "Accounts Recently Viewed" [level=1] [ref=e344]:
+                        - generic [ref=e345]: Accounts
+                        - generic [ref=e346]: Recently Viewed
+                      - 'button "Select a List View: Accounts" [ref=e349]':
+                        - img [ref=e351]
+                        - generic [ref=e354]: "Select a List View: Accounts"
+                    - button "This list is pinned." [disabled] [ref=e358] [cursor=pointer]:
+                      - img [ref=e360]
+                      - generic [ref=e363]: This list is pinned.
+              - list [ref=e366]:
+                - listitem [ref=e367]:
+                  - button "New" [active] [ref=e368] [cursor=pointer]:
+                    - generic "New" [ref=e369]
+                - listitem [ref=e370]:
+                  - button "Import" [ref=e371] [cursor=pointer]:
+                    - generic "Import" [ref=e372]
+                - listitem [ref=e373]:
+                  - button "Assign Label" [ref=e374] [cursor=pointer]:
+                    - generic "Assign Label" [ref=e375]
+            - generic [ref=e376]:
+              - paragraph [ref=e378]:
+                - generic [ref=e380]:
+                  - status "Recently Viewed" [ref=e381]: 0 items •
+                  - text: Updated a few seconds ago
+              - generic [ref=e387]:
+                - generic [ref=e388]: Search this list...
+                - generic [ref=e389]:
+                  - searchbox "Search this list..." [ref=e390]
+                  - generic:
+                    - img
+              - generic [ref=e391]:
+                - button "List View Controls" [ref=e395] [cursor=pointer]:
+                  - img [ref=e397]
+                  - img [ref=e401]
+                  - generic [ref=e404]: List View Controls
+                - button "Select list display" [ref=e407] [cursor=pointer]:
+                  - img [ref=e409]
+                  - img [ref=e413]
+                  - generic [ref=e416]: Select list display
+                - generic [ref=e418]:
+                  - button "Refresh" [ref=e421] [cursor=pointer]:
+                    - img [ref=e423]
+                    - generic [ref=e426]: Refresh
+                  - button "Column sort is disabled. To sort columns, a list view needs at least one row and two columns." [ref=e429] [cursor=pointer]:
+                    - img [ref=e431]
+                    - generic [ref=e434]: Column sort is disabled. To sort columns, a list view needs at least one row and two columns.
+                  - button "Edit List" [ref=e437] [cursor=pointer]:
+                    - img [ref=e439]
+                    - generic [ref=e442]: Edit List
+                  - group [ref=e443]:
+                    - generic [ref=e445]:
+                      - generic:
+                        - generic:
+                          - button "Charts" [disabled]:
+                            - generic:
+                              - img
+                            - generic: Charts
+                      - generic:
+                        - generic:
+                          - button "Filters" [disabled]:
+                            - generic:
+                              - img
+                            - generic: Filters
+          - generic [ref=e453]:
+            - img [ref=e454]
+            - generic [ref=e521]:
+              - paragraph [ref=e522]: Nothing to see here
+              - paragraph [ref=e523]: There's nothing in your list yet. Try adding a new record.
+    - generic:
+      - contentinfo "Utility Bar":
+        - list [ref=e527]:
+          - listitem [ref=e528]:
+            - button "To Do List" [ref=e531] [cursor=pointer]:
+              - img [ref=e535]
+              - generic [ref=e538]: To Do List
+  - generic:
+    - status
+```
