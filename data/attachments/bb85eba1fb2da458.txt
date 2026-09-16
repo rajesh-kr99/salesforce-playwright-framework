@@ -1,0 +1,9 @@
+📂 No existing session found, fresh login required
+🔐 Performing fresh login...
+🔑 Using JWT authentication (no OTP required)...
+✅ JWT Authentication successful
+📍 Instance URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+✅ JWT authentication successful
+🔗 Instance URL: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
+✅ Successfully logged in via JWT
+✅ JWT session saved to auth.json

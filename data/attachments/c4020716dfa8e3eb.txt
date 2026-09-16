@@ -1,0 +1,35 @@
+❌ JWT authentication failed: Error: JWT Authentication failed: 503 - <html>
+<body>
+<center>
+	<table bgcolor="white" cellpadding="0" cellspacing="0" width="758">
+		<tbody>
+		<tr>
+			<td><span style="font-family: Verdana; font-size: medium; font-weight: bold;">We are down for maintenance.</span><br><br>Sorry for the inconvenience. We'll be back shortly.</td><br>
+		</tr>
+		</tbody>
+	</table>
+</center>
+</body>
+</html>
+
+    at authenticateWithJWT (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/utils/jwtAuth.ts:54:11)
+    at performFreshLogin (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:73:26)
+    at Object.loginPage [as fn] (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:199:9)
+    at /home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/node_modules/playwright/lib/worker/fixtureRunner.js:98:9
+❌ Authentication failed: Error: JWT authentication failed: Error: JWT Authentication failed: 503 - <html>
+<body>
+<center>
+	<table bgcolor="white" cellpadding="0" cellspacing="0" width="758">
+		<tbody>
+		<tr>
+			<td><span style="font-family: Verdana; font-size: medium; font-weight: bold;">We are down for maintenance.</span><br><br>Sorry for the inconvenience. We'll be back shortly.</td><br>
+		</tr>
+		</tbody>
+	</table>
+</center>
+</body>
+</html>
+
+    at performFreshLogin (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:101:13)
+    at Object.loginPage [as fn] (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:199:9)
+    at /home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/node_modules/playwright/lib/worker/fixtureRunner.js:98:9

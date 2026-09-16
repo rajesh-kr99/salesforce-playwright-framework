@@ -1,0 +1,9 @@
+❌ JWT authentication failed: Error: JWT Authentication failed: 504 - upstream request timeout
+    at authenticateWithJWT (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/utils/jwtAuth.ts:54:11)
+    at performFreshLogin (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:73:26)
+    at Object.loginPage [as fn] (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:199:9)
+    at /home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/node_modules/playwright/lib/worker/fixtureRunner.js:98:9
+❌ Authentication failed: Error: JWT authentication failed: Error: JWT Authentication failed: 504 - upstream request timeout
+    at performFreshLogin (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:101:13)
+    at Object.loginPage [as fn] (/home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/fixtures/loginFixtures.ts:199:9)
+    at /home/runner/work/salesforce-playwright-framework/salesforce-playwright-framework/node_modules/playwright/lib/worker/fixtureRunner.js:98:9
