@@ -1,0 +1,606 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e7]:
+          - generic [ref=e11]:
+            - generic [ref=e14]:
+              - button:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                - generic: Menu
+            - generic [ref=e19]:
+              - img [ref=e23]
+              - generic [ref=e26]: Developer Edition
+          - generic [ref=e34]:
+            - button:
+              - generic:
+                - img
+              - generic: Show menu
+        - generic [ref=e35]:
+          - generic [ref=e41]:
+            - button:
+              - generic:
+                - img
+              - text: Search...
+          - navigation [ref=e42]:
+            - list [ref=e44]:
+              - listitem [ref=e45]:
+                - group [ref=e46]:
+                  - generic [ref=e47]:
+                    - button:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+                  - generic [ref=e48]:
+                    - button:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - listitem [ref=e49]:
+                - generic [ref=e54]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+              - listitem [ref=e55]:
+                - generic [ref=e57]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+              - listitem [ref=e58]:
+                - button [ref=e64] [cursor=pointer]:
+                  - img [ref=e69]
+              - listitem [ref=e72]:
+                - generic [ref=e74]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img
+              - listitem [ref=e76]:
+                - generic [ref=e78]:
+                  - button
+      - generic [ref=e79]:
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - navigation [ref=e85]:
+              - generic [ref=e86]:
+                - button:
+                  - generic:
+                    - generic: App Launcher
+            - heading [level=1] [ref=e87]:
+              - generic [ref=e88]: Sales
+          - navigation [ref=e91]:
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - link:
+                  - /url: /lightning/page/home
+                  - generic: Home
+              - listitem [ref=e94]:
+                - link:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic: Opportunities
+                - generic [ref=e97]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Opportunities List
+              - listitem [ref=e98]:
+                - link:
+                  - /url: /lightning/o/Lead/home
+                  - generic: Leads
+                - generic [ref=e101]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Leads List
+              - listitem [ref=e102]:
+                - link:
+                  - /url: /lightning/o/Task/home
+                  - generic: Tasks
+                - generic [ref=e105]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Tasks List
+              - listitem [ref=e106]:
+                - link:
+                  - /url: /lightning/o/ContentDocument/home
+                  - generic: Files
+                - generic [ref=e109]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Files List
+              - listitem [ref=e110] [cursor=pointer]:
+                - link:
+                  - /url: /lightning/o/Account/home
+                  - generic: Accounts
+                - generic [ref=e113]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Accounts List
+              - listitem [ref=e114]:
+                - link:
+                  - /url: /lightning/o/Contact/home
+                  - generic: Contacts
+                - generic [ref=e117]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Contacts List
+              - listitem [ref=e118]:
+                - link:
+                  - /url: /lightning/o/Campaign/home
+                  - generic: Campaigns
+                - generic [ref=e121]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Campaigns List
+              - listitem [ref=e122]:
+                - link:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic: Dashboards
+                - generic [ref=e125]:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Dashboards List
+              - listitem [ref=e126]:
+                - generic [ref=e127]:
+                  - button:
+                    - generic: More
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                    - generic: Show more navigation items
+              - listitem [ref=e128]:
+                - generic [ref=e129]:
+                  - button:
+                    - generic:
+                      - img
+                    - generic: Edit nav items
+        - main [ref=e131]:
+          - generic [ref=e141]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e146]:
+                  - img [ref=e150]
+                  - generic [ref=e151]:
+                    - heading [level=1] [ref=e155]: Accounts
+                    - generic [ref=e156]:
+                      - generic [ref=e158] [cursor=pointer]:
+                        - heading [level=1] [ref=e159]:
+                          - generic [ref=e160]: Accounts
+                          - generic [ref=e161]: Recently Viewed
+                        - generic [ref=e163]:
+                          - button:
+                            - generic:
+                              - img
+                            - generic: "Select a List View: Accounts"
+                      - generic [ref=e166]:
+                        - button [disabled]:
+                          - generic:
+                            - img
+                          - generic: This list is pinned.
+                - list [ref=e169]:
+                  - listitem [ref=e170]:
+                    - button:
+                      - generic: New
+                  - listitem [ref=e171]:
+                    - button:
+                      - generic: Import
+                  - listitem [ref=e172]:
+                    - button:
+                      - generic: Assign Label
+              - generic [ref=e173]:
+                - paragraph [ref=e175]:
+                  - generic [ref=e177]:
+                    - status [ref=e178]: 0 items •
+                    - text: Updated a few seconds ago
+                - generic [ref=e184]:
+                  - generic [ref=e185]: Search this list...
+                  - generic [ref=e186]:
+                    - searchbox
+                    - img
+                - generic [ref=e187]:
+                  - generic [ref=e190]:
+                    - button:
+                      - generic:
+                        - img
+                      - generic:
+                        - img
+                      - generic: List View Controls
+                  - generic [ref=e192]:
+                    - button:
+                      - generic:
+                        - img
+                      - generic:
+                        - img
+                      - generic: Select list display
+                  - generic [ref=e194]:
+                    - generic [ref=e196]:
+                      - button:
+                        - generic:
+                          - img
+                        - generic: Refresh
+                    - generic [ref=e198]:
+                      - button:
+                        - generic:
+                          - img
+                        - generic: Column sort is disabled. To sort columns, a list view needs at least one row and two columns.
+                    - generic [ref=e200]:
+                      - button:
+                        - generic:
+                          - img
+                        - generic: Edit List
+                    - group [ref=e201]:
+                      - generic [ref=e203]:
+                        - generic:
+                          - generic:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e211]:
+              - img [ref=e214]:
+                - figure [ref=e215]:
+                  - img [ref=e216]
+              - heading [level=3] [ref=e250]: Nothing to see here
+              - paragraph [ref=e251]: There's nothing in your list yet. Try adding a new record.
+      - list [ref=e255]:
+        - listitem [ref=e256]:
+          - generic [ref=e258]:
+            - button:
+              - generic:
+                - generic:
+                  - generic:
+                    - img
+              - generic: To Do List
+    - generic [ref=e259]:
+      - dialog [ref=e261]:
+        - generic [ref=e262]:
+          - button [ref=e263] [cursor=pointer]:
+            - img [ref=e265]
+            - generic [ref=e268]: Cancel and close
+          - generic [ref=e269]:
+            - generic [ref=e277]:
+              - heading [level=2] [ref=e279]: New Account
+              - generic [ref=e281]:
+                - generic [ref=e282]: "* = Required Information"
+                - generic [ref=e284]:
+                  - generic [ref=e289]:
+                    - generic [ref=e291]:
+                      - heading [level=3] [ref=e292]:
+                        - generic [ref=e293]: Account Information
+                      - list [ref=e295]:
+                        - generic [ref=e296]:
+                          - generic [ref=e298]:
+                            - listitem [ref=e300]:
+                              - generic [ref=e301]:
+                                - generic [ref=e302]: Account Owner
+                                - generic [ref=e314]: Rajesh Katanguri
+                            - listitem [ref=e316]:
+                              - generic [ref=e323]:
+                                - generic [ref=e325]: Rating
+                                - generic [ref=e329]:
+                                  - combobox [ref=e330] [cursor=pointer]:
+                                    - generic [ref=e331]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - generic [ref=e333]:
+                            - listitem [ref=e335]:
+                              - generic [ref=e341]:
+                                - generic [ref=e342]: "*Account Name"
+                                - textbox [ref=e344]
+                            - listitem [ref=e346]:
+                              - generic [ref=e351]:
+                                - generic [ref=e352]: Phone
+                                - textbox [ref=e354]
+                          - generic [ref=e356]:
+                            - listitem [ref=e358]:
+                              - generic [ref=e364]:
+                                - generic [ref=e365]: Parent Account
+                                - generic [ref=e370]:
+                                  - combobox [ref=e373]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e375]:
+                              - generic [ref=e380]:
+                                - generic [ref=e381]: Fax
+                                - textbox [ref=e383]
+                          - generic [ref=e385]:
+                            - listitem [ref=e387]:
+                              - generic [ref=e393]:
+                                - generic [ref=e394]: Account Number
+                                - textbox [ref=e396]
+                            - listitem [ref=e398]:
+                              - generic [ref=e403]:
+                                - generic [ref=e404]: Website
+                                - textbox [ref=e406]
+                          - generic [ref=e408]:
+                            - listitem [ref=e410]:
+                              - generic [ref=e416]:
+                                - generic [ref=e417]: Account Site
+                                - textbox [ref=e419]
+                            - listitem [ref=e421]:
+                              - generic [ref=e427]:
+                                - generic [ref=e428]: Ticker Symbol
+                                - textbox [ref=e430]
+                          - generic [ref=e432]:
+                            - listitem [ref=e434]:
+                              - generic [ref=e441]:
+                                - generic [ref=e443]: Type
+                                - generic [ref=e447]:
+                                  - combobox [ref=e448] [cursor=pointer]:
+                                    - generic [ref=e449]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e451]:
+                              - generic [ref=e458]:
+                                - generic [ref=e460]: Ownership
+                                - generic [ref=e464]:
+                                  - combobox [ref=e465] [cursor=pointer]:
+                                    - generic [ref=e466]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - generic [ref=e468]:
+                            - listitem [ref=e470]:
+                              - generic [ref=e477]:
+                                - generic [ref=e479]: Industry
+                                - generic [ref=e483]:
+                                  - combobox [ref=e484] [cursor=pointer]:
+                                    - generic [ref=e485]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e487]:
+                              - generic [ref=e492]:
+                                - generic [ref=e493]: Employees
+                                - spinbutton [ref=e495]
+                          - generic [ref=e497]:
+                            - listitem [ref=e499]:
+                              - generic [ref=e505]:
+                                - generic [ref=e506]: Annual Revenue
+                                - spinbutton [ref=e508]
+                            - listitem [ref=e510]:
+                              - generic [ref=e516]:
+                                - generic [ref=e517]: SIC Code
+                                - textbox [ref=e519]
+                    - generic [ref=e521]:
+                      - heading [level=3] [ref=e522]:
+                        - generic [ref=e523]: Address Information
+                      - list [ref=e525]:
+                        - generic [ref=e528]:
+                          - listitem [ref=e530]:
+                            - group [ref=e535]:
+                              - generic [ref=e536]: Billing Address
+                              - generic [ref=e538]:
+                                - generic [ref=e542]:
+                                  - generic [ref=e544]: Billing Country
+                                  - generic [ref=e548]:
+                                    - combobox [ref=e551]: "--None--"
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - generic [ref=e553]:
+                                  - generic [ref=e554]: Billing Street
+                                  - textbox [ref=e556]
+                                - generic [ref=e557]:
+                                  - generic [ref=e560]:
+                                    - generic [ref=e561]: Billing City
+                                    - textbox [ref=e563]
+                                  - generic [ref=e566]:
+                                    - generic [ref=e568]: Billing State/Province
+                                    - generic [ref=e572]:
+                                      - combobox [ref=e575]: "--None--"
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                - generic [ref=e579]:
+                                  - generic [ref=e580]: Billing Zip/Postal Code
+                                  - textbox [ref=e582]
+                          - listitem [ref=e584]:
+                            - group [ref=e589]:
+                              - generic [ref=e590]: Shipping Address
+                              - generic [ref=e592]:
+                                - generic [ref=e596]:
+                                  - generic [ref=e598]: Shipping Country
+                                  - generic [ref=e602]:
+                                    - combobox [ref=e605]: "--None--"
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                - generic [ref=e607]:
+                                  - generic [ref=e608]: Shipping Street
+                                  - textbox [ref=e610]
+                                - generic [ref=e611]:
+                                  - generic [ref=e614]:
+                                    - generic [ref=e615]: Shipping City
+                                    - textbox [ref=e617]
+                                  - generic [ref=e620]:
+                                    - generic [ref=e622]: Shipping State/Province
+                                    - generic [ref=e626]:
+                                      - combobox [ref=e629]: "--None--"
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                - generic [ref=e633]:
+                                  - generic [ref=e634]: Shipping Zip/Postal Code
+                                  - textbox [ref=e636]
+                    - generic [ref=e638]:
+                      - heading [level=3] [ref=e639]:
+                        - generic [ref=e640]: Additional Information
+                      - list [ref=e642]:
+                        - generic [ref=e643]:
+                          - generic [ref=e645]:
+                            - listitem [ref=e647]:
+                              - generic [ref=e654]:
+                                - generic [ref=e656]: Customer Priority
+                                - generic [ref=e660]:
+                                  - combobox [ref=e661] [cursor=pointer]:
+                                    - generic [ref=e662]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - listitem [ref=e664]:
+                              - generic [ref=e671]:
+                                - generic [ref=e673]: SLA
+                                - generic [ref=e677]:
+                                  - combobox [ref=e678] [cursor=pointer]:
+                                    - generic [ref=e679]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - generic [ref=e681]:
+                            - listitem [ref=e683]:
+                              - generic [ref=e687]:
+                                - group [ref=e688]:
+                                  - generic [ref=e689]: SLA Expiration Date
+                                  - generic [ref=e690]:
+                                    - textbox [ref=e691]
+                                    - generic:
+                                      - button:
+                                        - generic:
+                                          - img
+                                        - generic: Select a date for SLA Expiration Date
+                                - generic [ref=e692]: "Format: 12/31/2024"
+                            - listitem [ref=e694]:
+                              - generic [ref=e700]:
+                                - generic [ref=e701]: SLA Serial Number
+                                - textbox [ref=e703]
+                          - generic [ref=e705]:
+                            - listitem [ref=e707]:
+                              - generic [ref=e712]:
+                                - generic [ref=e713]: Number of Locations
+                                - spinbutton [ref=e715]
+                            - listitem [ref=e717]:
+                              - generic [ref=e724]:
+                                - generic [ref=e726]: Upsell Opportunity
+                                - generic [ref=e730]:
+                                  - combobox [ref=e731] [cursor=pointer]:
+                                    - generic [ref=e732]: "--None--"
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                          - listitem [ref=e736]:
+                            - generic [ref=e743]:
+                              - generic [ref=e745]: Active
+                              - generic [ref=e749]:
+                                - combobox [ref=e750] [cursor=pointer]:
+                                  - generic [ref=e751]: "--None--"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                    - generic [ref=e754]:
+                      - heading [level=3] [ref=e755]:
+                        - generic [ref=e756]: Description Information
+                      - list [ref=e758]:
+                        - listitem [ref=e763]:
+                          - generic [ref=e767]:
+                            - generic [ref=e768]: Description
+                            - textbox [ref=e770]
+                  - generic [ref=e775]:
+                    - button [ref=e781] [cursor=pointer]: Cancel
+                    - button [ref=e787] [cursor=pointer]: Save & New
+                    - button [ref=e793] [cursor=pointer]: Save
+            - status [ref=e794]
+      - dialog "Try the new Salesforce Setup" [ref=e796]:
+        - generic [ref=e801]:
+          - generic [ref=e802]:
+            - generic [ref=e803]:
+              - generic [ref=e808]:
+                - generic [ref=e809]:
+                  - img [ref=e813]
+                  - heading "Try the new Salesforce Setup" [level=2] [ref=e816]
+                - paragraph [ref=e820]: Discover and turn on features to help your teams meet their goals and be more efficient using AI. Get started with the new Salesforce Go.
+                - generic [ref=e822]:
+                  - img "User selecting the Salesforce Go item from the gear menu on the Seller Home page." [ref=e823]
+                  - button "Pause" [ref=e825] [cursor=pointer]:
+                    - img [ref=e827]
+                    - generic [ref=e830]: Pause
+              - generic [ref=e832]: Press Ctrl+F6 to go to prompt in-app guidance
+            - generic [ref=e833]:
+              - button "Snooze In-App Guidance" [ref=e836] [cursor=pointer]:
+                - img [ref=e838]
+                - img [ref=e842]
+                - generic [ref=e845]: Snooze In-App Guidance
+              - button "Drag and Drop" [ref=e849] [cursor=pointer]:
+                - img [ref=e851]
+                - generic [ref=e854]: Drag and Drop
+          - generic [ref=e856]:
+            - button "Dismiss" [ref=e859] [cursor=pointer]
+            - button "Focus me" [ref=e861] [cursor=pointer]:
+              - img [ref=e863]
+              - generic [ref=e866]: Focus me
+            - link "Let's Go Open in a New Salesforce Tab" [active] [ref=e867] [cursor=pointer]:
+              - /url: /lightning/setup/SalesSetupHome/home
+              - text: Let's Go
+  - generic:
+    - status
+```
