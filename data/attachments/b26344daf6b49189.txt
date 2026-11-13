@@ -1,7 +1,0 @@
-✅ OAuth successful. Instance: https://orgfarm-18f9b8b1f4-dev-ed.develop.my.salesforce.com
-API Response: [
-  {
-    message: 'Your password has expired. Please reset your password.',
-    errorCode: 'INVALID_OPERATION_WITH_EXPIRED_PASSWORD'
-  }
-]
